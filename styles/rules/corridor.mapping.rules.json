@@ -1,0 +1,311 @@
+{
+	"Version": "0.0.1",
+  "CorridorMappingRules": [
+    {
+      "Enabled": true,
+      "SubassemblyName": "link",
+      "ShapeCodes": [],
+      "LinkCodes": [],
+      "Category": "Generic",
+      "Material": "Material/Colors/Green Alpha50"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "lane",
+      "ShapeCodes": [ "pave1" ],
+      "LinkCodes": [],
+      "Category": "Roadway",
+      "Material": "Material/Roadway/Surface Dark Grey Asphalt 1w 1h"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "lane",
+      "ShapeCodes": [ "pave2" ],
+      "LinkCodes": [],
+      "Category": "Roadway",
+      "Material": "Material/Terrain/Concrete"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "lane",
+      "ShapeCodes": [ "Base" ],
+      "LinkCodes": [],
+      "Category": "Roadway",
+      "Material": "Material/Terrain/Gravel"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "lane",
+      "ShapeCodes": [ "SubBase" ],
+      "LinkCodes": [],
+      "Category": "Roadway",
+      "Material": "Material/Terrain/Sand"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "lane",
+      "ShapeCodes": [],
+      "LinkCodes": [],
+      "Category": "Roadway",
+      "Material": "Material/Terrain/Sand"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "pave",
+      "ShapeCodes": [],
+      "LinkCodes": [],
+      "Category": "Roadway",
+      "Material": "Material/Bridge/Concrete"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "overlay",
+      "ShapeCodes": [ "overlay" ],
+      "LinkCodes": [],
+      "Category": "Roadway",
+      "Material": "Material/Bridge/Concrete"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "overlay",
+      "ShapeCodes": [],
+      "LinkCodes": [],
+      "Category": "Generic",
+      "Material": "Material/Bridge/Concrete"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "median",
+      "ShapeCodes": [ "pave1" ],
+      "LinkCodes": [],
+      "Category": "Roadway",
+      "Material": "Material/Roadway/Surface Dark Grey Asphalt 1w 1h"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "median",
+      "ShapeCodes": [ "pave2" ],
+      "LinkCodes": [],
+      "Category": "Roadway",
+      "Material": "Material/Terrain/Concrete"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "median",
+      "ShapeCodes": [ "Base" ],
+      "LinkCodes": [],
+      "Category": "Roadway",
+      "Material": "Material/Terrain/Gravel"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "median",
+      "ShapeCodes": [ "SubBase" ],
+      "LinkCodes": [],
+      "Category": "Roadway",
+      "Material": "Material/Terrain/Sand"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "median",
+      "ShapeCodes": [ "Barrier" ],
+      "LinkCodes": [],
+      "Category": "Roadway",
+      "Material": "Material/Bridge/Concrete"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "median",
+      "ShapeCodes": [],
+      "LinkCodes": [],
+      "Category": "Generic",
+      "Material": "Material/Terrain/Grass2"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "curb",
+      "ShapeCodes": [ "curb" ],
+      "LinkCodes": [],
+      "Category": "Curb",
+      "Material": "Material/Roadway/Curb"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "curb",
+      "ShapeCodes": [],
+      "LinkCodes": [],
+      "Category": "Curb",
+      "Material": "Material/Roadway/Curb"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "sidewalk",
+      "ShapeCodes": [ "sidewalk" ],
+      "LinkCodes": [],
+      "Category": "Sidewalk",
+      "Material": "Material/Sidewalk/Rectangular Stone w_Grass 1w 1h"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "sidewalk",
+      "ShapeCodes": [],
+      "LinkCodes": [],
+      "Category": "Sidewalk",
+      "Material": "Material/Sidewalk/Rectangular Stone w_Grass 1w 1h"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "shoulder",
+      "ShapeCodes": [ "pave1" ],
+      "LinkCodes": [],
+      "Category": "Roadway",
+      "Material": "Material/Roadway/Surface Dark Grey Asphalt 1w 1h"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "shoulder",
+      "ShapeCodes": [ "pave2" ],
+      "LinkCodes": [],
+      "Category": "Roadway",
+      "Material": "Material/Terrain/Concrete"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "shoulder",
+      "ShapeCodes": [ "Base" ],
+      "LinkCodes": [],
+      "Category": "Roadway",
+      "Material": "Material/Terrain/Gravel"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "shoulder",
+      "ShapeCodes": [ "SubBase" ],
+      "LinkCodes": [],
+      "Category": "Roadway",
+      "Material": "Material/Terrain/Sand"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "shoulder",
+      "ShapeCodes": [],
+      "LinkCodes": [],
+      "Category": "Shoulder",
+      "Material": "Material/Terrain/Gravel"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "rail",
+      "ShapeCodes": [ "ballast" ],
+      "LinkCodes": [],
+      "Category": "Generic",
+      "Material": "Material/Railway/Ballast"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "rail",
+      "ShapeCodes": [ "subballast" ],
+      "LinkCodes": [],
+      "Category": "Generic",
+      "Material": "Material/Railway/Ballast"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "rail",
+      "ShapeCodes": [ "rail" ],
+      "LinkCodes": [],
+      "Category": "Generic",
+      "Material": "Material/Railway/Rail Iron"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "rail",
+      "ShapeCodes": [],
+      "LinkCodes": [],
+      "Category": "Generic",
+      "Material": "Material/Parking Area/Mosaic Stones"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "barrier",
+      "ShapeCodes": [ "Topsoil" ],
+      "LinkCodes": [],
+      "Category": "Barrier",
+      "Material": "Material/Bridge/Concrete"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "barrier",
+      "ShapeCodes": [],
+      "LinkCodes": [],
+      "Category": "Barrier",
+      "Material": "Material/Bridge/Concrete"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "wall",
+      "ShapeCodes": [],
+      "LinkCodes": [],
+      "Category": "Generic",
+      "Material": "Material/Bridge/Concrete"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "daylight",
+      "ShapeCodes": [],
+      "LinkCodes": [ "Daylight" ],
+      "Category": "Grading",
+      "Material": "Material/Terrain/Grass"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "daylight",
+      "ShapeCodes": [],
+      "LinkCodes": [],
+      "Category": "Grading",
+      "Material": "Material/Terrain/Grass"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "sideslope",
+      "ShapeCodes": [],
+      "LinkCodes": [],
+      "Category": "Grading",
+      "Material": "Material/Terrain/Grass"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "channel",
+      "ShapeCodes": [ "Lining_Material" ],
+      "LinkCodes": [],
+      "Category": "Generic",
+      "Material": "Material/Bridge/Concrete"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "channel",
+      "ShapeCodes": [],
+      "LinkCodes": [],
+      "Category": "Generic",
+      "Material": "Material/Land Cover/Tallus"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "ditch",
+      "ShapeCodes": [ "ditch" ],
+      "LinkCodes": [],
+      "Category": "Generic",
+      "Material": "Material/Bridge/Concrete"
+    },
+    {
+      "Enabled": true,
+      "SubassemblyName": "ditch",
+      "ShapeCodes": [],
+      "LinkCodes": [],
+      "Category": "Generic",
+      "Material": "Material/Land Cover/Tallus"
+    }
+  ],
+	"TopSegments": "top",
+	"DatumSegments": "datum"
+}

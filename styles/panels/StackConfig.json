@@ -1,0 +1,48 @@
+{
+    "panelDefaultSettings": [
+        {
+            "tag": "editMode",
+            "collapsed": false
+        },
+        {
+            "tag": "type",
+            "collapsed": false
+        },
+        {
+            "tag": "pkr_standards",
+            "collapsed": false
+        },
+        {
+            "tag": "attributes",
+            "collapsed": false
+        },
+        {
+            "tag": "geometry",
+            "collapsed": false
+        },
+        {
+            "tag": "count",
+            "collapsed": false
+        },
+		{
+            "tag": "pkr_bay_detail_settings",
+            "collapsed": false
+        },
+        {
+            "tag": "SiteAnalysis",
+            "collapsed": true
+        },
+        {
+            "tag": "lifespan",
+            "collapsed": true
+        },
+        {
+            "tag": "advanced",
+            "collapsed": true
+        },
+        {
+            "tag": "description",
+            "collapsed": true
+        }
+    ]
+}

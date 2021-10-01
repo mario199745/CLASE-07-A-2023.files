@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimpleSymbolDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SymbolDefinition-1.1.0.xsd" version="1.1.0">
+  <Name>road marking barrier (One way, RHS)</Name>
+  <Graphics>
+    <Path>
+      <Geometry>
+        M 0.00,-0.05 L 0.00,-0.15 L 1.00,-0.15 L 2.00,-0.15 L 3.00,-0.15 L 3.00,-0.05 L 2.00,-0.05 L 1.00,-0.05 Z
+        M 0.00, 0.05 L 0.00, 0.15 L 1.00, 0.15 L 2.00, 0.15 L 3.00, 0.15 L 4.00, 0.15 L 5.00, 0.15 L 6.00, 0.15 L 7.00, 0.15 L 8.00, 0.15 L 9.00, 0.15 L 10.00, 0.15 L 11.00, 0.15 L 12.00, 0.15 L 12.00, 0.05 L 11.00, 0.05 L 10.00, 0.05 L 9.00, 0.05 L 8.00, 0.05 L 7.00, 0.05 L 6.00, 0.05 L 5.00, 0.05 L 4.00, 0.05 L 3.00, 0.05 L 2.00, 0.05 L 1.00, 0.05 Z
+      </Geometry>
+      <FillColor>ffffffff</FillColor>
+    </Path>
+  </Graphics>
+  <LineUsage>
+    <VertexControl>'OverlapWrap'</VertexControl>
+    <Repeat>12.00</Repeat>
+  </LineUsage>
+  <ParameterDefinition/>
+</SimpleSymbolDefinition>

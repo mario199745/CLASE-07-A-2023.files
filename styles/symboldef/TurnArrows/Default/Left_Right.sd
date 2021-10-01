@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimpleSymbolDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SymbolDefinition-1.1.0.xsd" version="1.1.0">
+  <Name>left right arrow</Name>
+  <Graphics>
+    <Path>
+      <Geometry>
+        M -4.000,-0.150
+        L -4.000, 0.150
+		L -3.375, 0.12625
+		L -2.750, 0.10250
+		L -2.125, 0.07875
+        L -1.500, 0.055
+        L -1.400, 0.070
+        L -1.350, 0.090
+        L -1.300, 0.124
+        L -1.240, 0.190
+        L -1.220, 0.230
+        L -1.200, 0.300
+        L -1.750, 0.300
+        L -1.000, 0.600
+        L  0.000, 0.300
+        L -0.800, 0.300
+        L -0.820, 0.200
+        L -0.850, 0.140
+        L -0.900, 0.080
+        L -0.950, 0.030
+        L -1.000, 0.000
+        L -0.950,-0.030
+        L -0.900,-0.080
+        L -0.850,-0.140
+        L -0.820,-0.200
+        L -0.800,-0.300
+        L  0.000,-0.300
+        L -1.000,-0.600
+        L -1.750,-0.300
+        L -1.200,-0.300
+        L -1.220,-0.230
+        L -1.240,-0.190
+        L -1.300,-0.124
+        L -1.350,-0.090
+        L -1.400,-0.070
+        L -1.500,-0.055
+		L -2.125,-0.07875
+		L -2.750,-0.10250
+		L -3.375,-0.12625
+        Z
+      </Geometry>
+      <FillColor>ffffffff</FillColor>
+    </Path>
+  </Graphics>
+  <LineUsage>
+    <VertexControl>'OverlapWrap'</VertexControl>
+    <EndOffset>3.000</EndOffset>
+    <Repeat>0.000</Repeat>
+  </LineUsage>
+  <ParameterDefinition/>
+</SimpleSymbolDefinition>

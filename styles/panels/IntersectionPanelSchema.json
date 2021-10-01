@@ -1,0 +1,268 @@
+{
+    "AssetList": {
+        "INTERSECTION": {
+            "Panels": {
+                "type": {
+                    "junctionType": "JUNCTION_TYPE",
+                    "designVehicle": "DESIGN_VEHICLE"
+                },
+                "attributes": {
+                    "designStandardReadOnly": "DESIGN_STANDARD",
+                    "extendMarkingMedian": "EXTEND_INTO_INTERSECTION",
+                    "yieldLine": "SHOW_YIELD_LINE"
+                },
+                "count": {
+                    "turningZones": "TURNING_ZONES",
+                    "wideningZones": "WIDENING_ZONES"
+                },
+                "lifespan": {
+                    "CREATION_DATE": "CREATION_DATE",
+                    "TERMINATION_DATE": "TERMINATION_DATE"
+                },
+                "advanced": {
+                    "ID": "ID",
+                    "DATA_SOURCE_ID": "DATA_SOURCE_ID",
+                    "EXTERNAL_ID": "EXTERNAL_ID",
+                    "GUID": "UNIQUE_IDENTIFIER",
+                    "TAG": "TAG",
+                    "USER_DATA": "USER_DATA",
+                    "TOOLTIP": "TOOLTIP",
+                    "LINK": "LINK"
+                },
+                "description": {
+                    "DESCRIPTION": "DESCRIPTION"
+                }
+            }
+        },
+
+        "TURNING_ZONE": {
+            "Panels": {
+                "type": {
+                    "curveType": "CURB_RETURN_TYPE"
+                },
+                "attributes": {
+                    "turnAngle": "TURN_ANGLE"
+                },
+                "geometry": {
+                    "radius": "CURB_RETURN_RADIUS",
+                    "offset": "CURB_RETURN_OFFSET",
+                    "taper": "CURB_RETURN_TAPER"
+                }
+            }
+        },
+
+        "WIDENING_ZONE": {
+            "Panels": {
+                "type": {
+                    "transitionType": "TRANSITION_TYPE"
+                },
+                "attributes": {
+                    "wideningSide": "WIDENING_SIDE"
+                },
+                "geometry": {
+                    "wideningLength": "WIDENING_LENGTH",
+                    "transitionLength": "TRANSITION_LENGTH",
+                    "curve1Radius": "TRANSITION_CURVE1_RADIUS",
+                    "curve2Radius": "TRANSITION_CURVE2_RADIUS",
+                    "reverseCurveRadius": "TRANSITION_REV_CURVE_RADIUS"
+                },
+                "count": {
+                    "wideningLanes": "WIDENING_LANES"
+                }
+            }
+        },
+
+        "LANE_GROUP": {
+            "Panels": {
+                "attributes": {
+                    "turnArrows": "TURN_ARROWS"
+                },
+                "count": {
+                    "totalLanes": "TOTAL_LANES",
+                    "wideningLanes": "WIDENING_LANES_READONLY"
+                }
+            }
+        }
+    },
+
+    "PropertyDefinitions": {
+        "JUNCTION_TYPE": {
+            "Representation": "StylePicker",
+            "CaptionText": "Junction Type"
+        },
+        "DESIGN_VEHICLE": {
+            "Representation": "StylePicker",
+            "CaptionText": "Design Vehicle"
+        },
+        "DESIGN_STANDARD": {
+            "Representation": "TextField",
+            "CaptionText": "Design Standard",
+            "isReadOnly": true
+        },
+        "EXTEND_INTO_INTERSECTION": {
+            "Representation": "ToggleButton",
+            "CaptionText": "Extend into Intersection"
+        },
+        "SHOW_YIELD_LINE": {
+            "Representation": "ToggleButton",
+            "CaptionText": "Yield Line"
+        },
+        "TURNING_ZONES": {
+            "Representation": "TextField",
+            "CaptionText": "Turning Zones",
+            "isReadOnly": true
+        },
+        "WIDENING_ZONES": {
+            "Representation": "TextField",
+            "CaptionText": "Widening Zones",
+            "isReadOnly": true
+        },
+        "CREATION_DATE": {
+            "Representation": "DatePicker"
+        },
+        "TERMINATION_DATE": {
+            "Representation": "DatePicker"
+        },
+        "ID": {
+            "Representation": "TextField",
+            "isReadOnly": true
+        },
+        "DATA_SOURCE_ID": {
+            "Representation": "TextField",
+            "useBindingHandler": true,
+            "isReadOnly": true
+        },
+        "EXTERNAL_ID": {
+            "Representation": "TextField",
+            "isReadOnly": true
+        },
+        "UNIQUE_IDENTIFIER": {
+            "Representation": "TextField",
+            "isReadOnly": true
+        },
+        "TAG": {
+            "Representation": "TextField"
+        },
+        "USER_DATA": {
+            "Representation": "TextField"
+        },
+        "TOOLTIP": {
+            "Representation": "TextLinkField"
+        },
+        "LINK": {
+            "Representation": "TextField"
+        },
+        "DESCRIPTION": {
+            "Representation": "TextEdit"
+        },
+
+        "CURB_RETURN_TYPE": {
+            "Representation": "StylePicker",
+            "CaptionText": "Curb Return Type"
+        },
+        "TURN_ANGLE": {
+            "Representation": "TextField",
+            "CaptionText": "Turn Angle",
+            "UnitType": "AngleUnit",
+            "DataType": "Double",
+            "isReadOnly": true
+        },
+        "CURB_RETURN_RADIUS": {
+            "Representation": "DoubleSpinBox",
+            "CaptionText": "Radius",
+            "UnitType": "LengthUnit",
+            "DataType": "Double"
+        },
+        "CURB_RETURN_OFFSET": {
+            "Representation": "DoubleSpinBox",
+            "CaptionText": "Offset",
+            "UnitType": "LengthUnit",
+            "DataType": "Double",
+            "Min": 0.0,
+            "Max": 1000.0
+        },
+        "CURB_RETURN_TAPER": {
+            "Representation": "DoubleSpinBox",
+            "CaptionText": "Taper",
+            "DataType": "Double",
+            "Decimals": 1,
+            "Min": 0.0,
+            "Max": 10000.0,
+            "Suffix": " : 1"
+        },
+
+        "TRANSITION_TYPE": {
+            "Representation": "StylePicker",
+            "CaptionText": "Transition Type"
+        },
+        "WIDENING_SIDE": {
+            "Representation": "TextField",
+            "CaptionText": "Position",
+            "isReadOnly": true
+        },
+        "WIDENING_LENGTH": {
+            "Representation": "DoubleSpinBox",
+            "CaptionText": "Widening Length",
+            "UnitType": "LengthUnit",
+            "DataType": "Double",
+            "Min": 0.0,
+            "Max": 1000.0
+        },
+        "TRANSITION_LENGTH": {
+            "Representation": "DoubleSpinBox",
+            "CaptionText": "Transition Length",
+            "UnitType": "LengthUnit",
+            "DataType": "Double",
+            "Min": 0.0,
+            "Max": 1000.0
+        },
+        "TRANSITION_CURVE1_RADIUS": {
+            "Representation": "DoubleSpinBox",
+            "CaptionText": "Curve 1 Radius",
+            "UnitType": "LengthUnit",
+            "DataType": "Double",
+            "Min": 0.0,
+            "Max": 10000.0
+        },
+        "TRANSITION_CURVE2_RADIUS": {
+            "Representation": "DoubleSpinBox",
+            "CaptionText": "Curve 2 Radius",
+            "UnitType": "LengthUnit",
+            "DataType": "Double",
+            "Min": 0.0,
+            "Max": 10000.0
+        },
+        "TRANSITION_REV_CURVE_RADIUS": {
+            "Representation": "DoubleSpinBox",
+            "CaptionText": "Reverse Curve Radius",
+            "UnitType": "LengthUnit",
+            "DataType": "Double",
+            "Min": 0.0,
+            "Max": 10000.0
+        },
+        "WIDENING_LANES": {
+            "Representation": "IntSpinBox",
+            "CaptionText": "Widening Lanes",
+            "DataType": "Int32",
+            "Min": 0,
+            "Max": 100
+        },
+
+        "TURN_ARROWS": {
+            "Representation": "Custom",
+            "Validator": {
+                "Type": "TurnArrowValidator"
+            }
+        },
+        "TOTAL_LANES": {
+            "Representation": "TextField",
+            "CaptionText": "Total Lanes",
+            "isReadOnly": true
+        },
+        "WIDENING_LANES_READONLY": {
+            "Representation": "TextField",
+            "CaptionText": "Widening Lanes",
+            "isReadOnly": true
+        }
+    }
+}

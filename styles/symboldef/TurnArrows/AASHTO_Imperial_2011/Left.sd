@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimpleSymbolDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SymbolDefinition-1.1.0.xsd" version="1.1.0">
+  <Name>left arrow</Name>
+  <Graphics>
+    <Path>
+      <Geometry>
+        M -2.4384,-0.9652
+        L -2.4384,-0.6604
+        L -1.8288,-0.6604
+        L -1.6256,-0.6223
+        L -1.4732,-0.5588
+        L -1.3208,-0.5080
+        L -1.1938,-0.2540
+        L -1.1176, 0.0508
+        L -1.1176, 0.2540
+        L -1.8288, 0.1524
+        L -0.9144, 0.9652
+        L  0.0000, 0.0508
+        L -0.6096, 0.2540
+        L -0.6096, 0.0508
+        L -0.7112,-0.3556
+        L -0.8128,-0.5842
+        L -0.9144,-0.6604
+        L -1.0160,-0.7620
+        L -1.0922,-0.8128
+        L -1.2192,-0.8890
+        L -1.5240,-0.9652
+        Z
+      </Geometry>
+      <FillColor>ffffffff</FillColor>
+    </Path>
+  </Graphics>
+  <LineUsage>
+    <VertexControl>'OverlapWrap'</VertexControl>
+    <EndOffset>4.4478</EndOffset>
+    <Repeat>0.0000</Repeat>
+  </LineUsage>
+  <ParameterDefinition/>
+</SimpleSymbolDefinition>

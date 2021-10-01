@@ -1,0 +1,704 @@
+{
+	"AssetList" : {
+		"DefaultPanelLayout": {
+			"Panels" :{
+				"attributes" : {
+					"StartStation" : "START_STATION",
+					"EndStation" : "END_STATION"
+				},
+				"type" :{
+					"Material" : "MATERIAL"
+				},
+				"geometry" : {
+					"Length" : "LENGTH"
+				}
+			}
+		},
+
+		"Lane" : {
+			"Extends" : "DefaultPanelLayout",
+			"Panels" : {
+				"geometry" : {
+					"Width" : "WIDTH",
+					"Depth" : "LANE DEPTH",
+					"Slope" : "SLOPE"
+				}
+			}
+		},
+		"Shoulder" : {
+			"Extends" : "DefaultPanelLayout",
+			"Panels" : {
+				"geometry" : {
+					"Width" : "WIDTH",
+					"Depth" : "SHOULDER DEPTH",
+					"Slope" : "SLOPE"
+				}
+			}
+		},
+		"Curb" : {
+			"Extends" : "DefaultPanelLayout",
+			"Panels" : {
+				"geometry" : {
+					"Width" : "WIDTH",
+					"Depth" : "CURB DEPTH",
+					"DepthBelow" : "DEPTH BELOW",
+					"BackHeight" : "BACK HEIGHT",
+					"ApplyDeflectionToCurbTop" : "APPLY DEFLECTION TO CURB TOP",
+					"CurbFaceDeflection": "CURB FACE DEFLECTION"
+				}
+			}
+		},
+		"Battered Curb" : {
+			"Extends" : "DefaultPanelLayout",
+			"Panels" :{
+				"geometry" : {
+					"Width" : "WIDTH",
+					"Height" : "BATTERCURB HEIGHT",
+					"CurbHeight": "CURB HEIGHT",
+					"BatterHeight" : "BATTER HEIGHT",
+					"BatterAngle" : "BATTER ANGLE"
+				}
+			}
+		},
+		"Jersey Barrier" : {
+			"Extends" : "DefaultPanelLayout",
+			"Panels" :{
+				"geometry" : {
+					"Width" : "READONLY WIDTH",
+					"Height" : "HEIGHT"
+				}
+			}
+		},
+		"Jersey Barrier_CLAttached" : {
+			"Extends" : "DefaultPanelLayout",
+			"Panels" :{
+				"geometry" : {
+					"Width" : "READONLY WIDTH",
+					"Height" : "HEIGHT",
+					"CLAttachment" : "CLATTACHMENT"
+				}
+			}
+		},
+		"Sidewalk" : {
+			"Extends" : "DefaultPanelLayout",
+			"Panels" : {
+				"geometry" : {
+					"Width" : "WIDTH",
+					"Depth" : "SIDEWALK DEPTH",
+					"Slope" : "SLOPE"
+				}
+			}
+		},
+		"Sloped Median" : {
+			"Extends" : "DefaultPanelLayout",
+			"Panels" : {
+				"geometry" : {
+					"Width" : "WIDTH",
+					"Depth" : "MEDIAN DEPTH",
+					"Slope" : "SLOPE"
+				}
+			}
+		},
+		"Sloped Median_CLAttached" : {
+			"Extends" : "DefaultPanelLayout",
+			"Panels" : {
+				"geometry" : {
+					"Width" : "WIDTH",
+					"Depth" : "MEDIAN DEPTH",
+					"Slope" : "SLOPE",
+					"CLAttachment" : "CLATTACHMENT"
+				}
+			}
+		},
+		"Curb & Gutter" : {
+			"Extends" : "DefaultPanelLayout",
+			"Panels" : {
+				"geometry" :{
+					"CurbDepth" : "CURB DEPTH",
+					"CurbWidth" : "WIDTH",
+					"CurbHeight" : "CURB HEIGHT",
+					"GutterWidth" : "GUTTER WIDTH",
+					"GutterSlope" : "GUTTER SLOPE"
+				}
+			}
+		},
+		"Generic Shape" : {
+			"Extends" : "DefaultPanelLayout",
+			"Panels" : {
+				"geometry" :{
+					"Width" : "WIDTH",
+					"Slope" : "SLOPE",
+					"InnerHeight" : "INNER HEIGHT",
+					"InnerDepth" : "INNER DEPTH",
+					"OuterHeight" : "OUTER HEIGHT",
+					"OuterDepth" : "OUTER DEPTH"
+				}
+			}
+		},        
+		"Footing" : {
+			"Extends" : "DefaultPanelLayout",
+			"Panels" : {
+				"geometry" :{
+					"Width" : "WIDTH",
+					"Depth" : "FOOTING DEPTH"
+				}
+			}
+		},        
+		"Footing_CLAttached" : {
+			"Extends" : "DefaultPanelLayout",
+			"Panels" : {
+				"geometry" :{
+					"Width" : "WIDTH",
+					"Depth" : "FOOTING DEPTH",
+					"CLAttachment" : "CLATTACHMENT"
+				}
+			}
+		},        
+		"Decoration" : {
+			"Panels" : {
+				"attributes" : {
+					"StartStation" : "START_STATION",
+					"EndStation" : "END_STATION"
+				},
+				"type" : {
+					"Material" : "DECORATION_LINK_IMAGE"
+				},
+				"geometry" : {
+					"Length" : "LENGTH",
+					"SpacingOffset" : "SPACINGOFFSET",
+					"Spacing" : "SPACING",
+					"Offset" : "TRACKOFFSET",
+					"TranslateZ" : "VERTOFFSET",
+					"Scale" : "SCALE",
+					"EulerZ" : "ROTATION",
+					"Tilting" : "TILTING"
+				}
+			}
+		}
+	},
+
+	"PropertyDefinitions" : {
+		"START_STATION" :{
+			"Representation" : "TextField",
+			"CaptionText" : "Start station",
+			"isReadOnly" : true,
+			"Formatter" : "Station"
+		},
+		"END_STATION": {
+			"Representation" : "TextField",
+			"CaptionText" : "End station",
+			"isReadOnly": true,
+			"Formatter" : "Station"
+		},
+		"MATERIAL" :{
+			"Representation" : "StylePicker",
+			"CaptionText" : "Material",
+			"isReadOnly": false
+		},
+		"LENGTH" :{
+			"Representation" : "TextField",
+			"CaptionText" : "Length",
+			"Formatter" : "Distance",
+			"isReadOnly": true
+		},
+		"WIDTH" :{
+			"Representation" : "TextField",
+			"CaptionText" : "Width",
+			"UnitType": "WidthUnit",
+			"DataType" : "Double",
+			"isReadOnly" : false,
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : 0.1
+				},
+				"Max" : {
+					"Value" : 99
+				},
+				"IsError" : true
+			}
+		},
+		"READONLY WIDTH" :{
+			"Representation" : "TextField",
+			"CaptionText" : "Width",
+			"UnitType": "WidthUnit",
+			"DataType" : "Double",
+			"isReadOnly": true
+		},
+		"DEPTH" :{
+			"Representation" : "TextField",
+			"CaptionText" : "Depth",
+			"DataType" : "Double",
+			"UnitType": "LengthUnit",
+			"isReadOnly": true
+		},
+		"INNER DEPTH" :{
+			"Representation" : "TextField",
+			"CaptionText" : "Inner Depth",
+			"DataType" : "Double",
+			"UnitType": "LengthUnit",
+			"isReadOnly" : false,
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : 0.0
+				},
+				"Max" : {
+					"Value" : 10
+				},
+				"IsError" : true
+			}
+		},    
+		"OUTER DEPTH" :{
+			"Representation" : "TextField",
+			"CaptionText" : "Outer Depth",
+			"DataType" : "Double",
+			"UnitType": "LengthUnit",
+			"isReadOnly" : false,
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : 0.0
+				},
+				"Max" : {
+					"Value" : 10
+				},
+				"IsError" : true
+			}
+		},            
+		"FOOTING DEPTH" :{
+			"Representation" : "TextField",
+			"CaptionText" : "Depth",
+			"DataType" : "Double",
+			"UnitType": "LengthUnit",
+			"isReadOnly" : false,
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : 0.01
+				},
+				"Max" : {
+					"Value" : 10
+				},
+				"IsError" : true
+			}
+		},        
+		"LANE DEPTH" :{
+			"Representation" : "TextField",
+			"CaptionText" : "Depth",
+			"DataType" : "Double",
+			"UnitType": "LengthUnit",
+			"isReadOnly" : false,
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : 0.01
+				},
+				"Max" : {
+					"Value" : 10
+				},
+				"IsError" : true
+			}
+		},
+		"SHOULDER DEPTH" :{
+			"Representation" : "TextField",
+			"CaptionText" : "Depth",
+			"DataType" : "Double",
+			"UnitType": "LengthUnit",
+			"isReadOnly" : false,
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : 0.01
+				},
+				"Max" : {
+					"Value" : 10
+				},
+				"IsError" : true
+			}
+		},
+		"SIDEWALK DEPTH" :{
+			"Representation" : "TextField",
+			"CaptionText" : "Depth",
+			"DataType" : "Double",
+			"UnitType": "LengthUnit",
+			"isReadOnly" : false,
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : 0.01
+				},
+				"Max" : {
+					"Value" : 10
+				},
+				"IsError" : true
+			}
+		},
+		"MEDIAN DEPTH" :{
+			"Representation" : "TextField",
+			"CaptionText" : "Depth",
+			"DataType" : "Double",
+			"UnitType": "LengthUnit",
+			"isReadOnly" : false,
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : 0.1
+				},
+				"Max" : {
+					"Value" : 100
+				},
+				"IsError" : true
+			}
+		},
+		"CURB DEPTH" :{
+			"Representation" : "TextField",
+			"CaptionText" : "Depth",
+			"DataType" : "Double",
+			"UnitType": "LengthUnit",
+			"isReadOnly" : false,
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : 0.01
+				},
+				"Max" : {
+					"Value" : 10
+				},
+				"IsError" : true
+			}
+		},
+		"SLOPE" :{
+			"Representation" : "TextField",
+			"CaptionText" : "Slope",
+			"Unit" : "Percent",
+			"DataType" : "Double",
+			"isReadOnly": false,
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : -100
+				},
+				"Max" : {
+					"Value" : 100
+				},
+				"IsError" : true
+			}
+		},
+		"HEIGHT" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Height",
+			"UnitType": "LengthUnit",
+			"DataType" : "Double",
+			"isReadOnly": true
+		},
+		"INNER HEIGHT" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Inner Height",
+			"UnitType": "LengthUnit",
+			"DataType" : "Double",
+			"isReadOnly": false,
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : 0.0
+				},
+				"Max" : {
+					"Value" : 10
+				},
+				"IsError" : true
+			}
+		},
+		"OUTER HEIGHT" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Outer Height",
+			"UnitType": "LengthUnit",
+			"DataType" : "Double",
+			"isReadOnly": false,
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : 0.0
+				},
+				"Max" : {
+					"Value" : 10
+				},
+				"IsError" : true
+			}
+		},
+		"CURB HEIGHT" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Curb Height",
+			"UnitType": "LengthUnit",
+			"DataType" : "Double",
+			"isReadOnly": false,
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : 0.01
+				},
+				"Max" : {
+					"Value" : 10
+				},
+				"IsError" : true
+			}
+		},
+		"DEPTH BELOW" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Depth Below",
+			"UnitType": "LengthUnit",
+			"DataType" : "Double",
+			"isReadOnly" : false,
+			"Validator" : {
+				"Type" : "DepthBelowValidator",
+				"Min" : {
+					"Value" : 0.01
+				},
+				"Max" : {
+					"Value" : 10
+				},
+				"IsError" : true
+			}
+		},
+		"BACK HEIGHT" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Back Height",
+			"UnitType": "LengthUnit",
+			"DataType" : "Double",
+			"isReadOnly" : false,
+			"Validator" : {
+				"Type" : "BackHeightValidator",
+				"Min" : {
+					"Value" : 0.0
+				},
+				"Max" : {
+					"Value" : 10
+				},
+				"IsError" : true
+			}
+		},
+		"APPLY DEFLECTION TO CURB TOP" : {
+			"Representation" : "ToggleButton",
+			"CaptionText" : "Apply Deflection To Curb Top"
+		},
+		"CURB FACE DEFLECTION" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Curb Face Deflection",
+			"UnitType": "AngleUnit",
+			"DataType" : "Double",
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : -89.9
+				},
+				"Max" : {
+					"Value" : 89.9
+				},
+				"IsError" : true
+			}
+		},
+		"CURB WIDTH" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Curb Width",
+			"UnitType": "WidthUnit",
+			"DataType" : "Double",
+			"isReadOnly": true
+		},
+		"GUTTER WIDTH" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Gutter Width",
+			"UnitType": "WidthUnit",
+			"DataType" : "Double",
+			"isReadOnly": false,
+                        "Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : 0.01
+				},
+				"Max" : {
+					"Value" : 10
+				},
+				"IsError" : true
+			}
+		},
+		"GUTTER SLOPE" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Gutter Slope",
+			"Unit" : "Percent",
+			"DataType" : "Double",
+			"isReadOnly": false,
+			"Validator" : {
+				"Type" : "GutterSlopeValidator",
+				"Min" : {
+					"Value" : -100
+				},
+				"Max" : {
+					"Value" : 100
+				},
+				"IsError" : true
+			}
+		},
+		"READONLY CURB DEPTH" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Height",
+			"UnitType": "WidthUnit",
+			"DataType" : "Double",
+			"isReadOnly": true
+		},
+		"BATTER HEIGHT": {
+			"Representation": "TextField",
+			"CaptionText": "Batter Height",
+			"UnitType": "LengthUnit",
+			"DataType": "Double",
+			"isReadOnly": false,
+			"Validator": {
+				"Type": "BatterHeightValidator"
+			}
+		},
+		"BATTER ANGLE" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Batter Angle",
+			"UnitType": "AngleUnit",
+			"DataType" : "Double",
+			"Validator" : {
+				"Type" : "BatterAngleValidator",
+				"Min" : {
+					"Value" : -89.9
+				},
+				"Max" : {
+					"Value" : 89.9
+				},
+				"IsError" : true
+			}
+		},
+		"BATTERCURB HEIGHT" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Height",
+			"UnitType": "LengthUnit",
+			"DataType" : "Double",
+			"isReadOnly": false,
+			"Validator" : {
+				"Type" : "BatterCurbHeightValidator",
+				"Min" : {
+					"Value" : 0.01
+				},
+				"Max" : {
+					"Value" : 10
+				},
+				"IsError" : true
+			}
+		},
+		"MODEL" : {
+			"Representation" : "StylePicker",
+			"CaptionText" : "Model"
+		},
+		"DECORATION_LINK_IMAGE" : {
+			"Representation" : "DecorationLinkImage",
+			"CaptionText" : "Model"
+		},
+		"SPACINGOFFSET" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Start Spacing",
+			"UnitType": "LengthUnit",
+			"DataType" : "Double",
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : 0.0
+				},
+				"Max" : {
+					"Value" : 10000
+				},
+				"IsError" : true
+			}
+			
+		},
+		"SPACING" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Spacing",
+			"UnitType": "LengthUnit",
+			"DataType" : "Double",
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : 0.1
+				},
+				"Max" : {
+					"Value" : 10000
+				},
+				"IsError" : true
+			}
+		},
+		"TRACKOFFSET" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Seam Offset",
+			"UnitType": "LengthUnit",
+			"DataType" : "Double",
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : -1000
+				},
+				"Max" : {
+					"Value" : 1000
+				},
+				"IsError" : true
+			}
+		},
+		"VERTOFFSET" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Vertical Offset",
+			"UnitType": "LengthUnit",
+			"DataType" : "Double",
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : -1000
+				},
+				"Max" : {
+					"Value" : 1000
+				},
+				"IsError" : true
+			}
+		},
+		"SCALE" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Scale",
+			"DataType" : "Double",
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : 0.1
+				},
+				"Max" : {
+					"Value" : 1000
+				},
+				"IsError" : true
+			}
+		},
+		"ROTATION" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Rotation",
+			"UnitType" : "AngleUnit",
+			"DataType" : "Double",
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : 0
+				},
+				"Max" : {
+					"Value" : 360
+				},
+				"IsError" : true
+			}
+		},
+		"TILTING" : {
+			"Representation" : "ToggleButton",
+			"CaptionText" : "Tilting"
+		},
+		"CLATTACHMENT" : {
+			"Representation" : "Dropdown",
+			"CaptionText" : "Centerline Attachment"
+		}
+	}
+}

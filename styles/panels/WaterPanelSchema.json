@@ -1,0 +1,66 @@
+{
+    "AssetList": {
+        "Water": {
+            "Panels": {
+                "lifespan": {
+                    "CREATION_DATE": "CREATION_DATE",
+                    "TERMINATION_DATE": "TERMINATION_DATE"
+                },
+                "advanced": {
+                    "ID": "ID",
+                    "DATA_SOURCE_ID": "DATA_SOURCE_ID",
+                    "EXTERNAL_ID": "EXTERNAL_ID",
+                    "GUID": "UNIQUE_IDENTIFIER",
+                    "TAG": "TAG",
+                    "USER_DATA": "USER_DATA",
+                    "TOOLTIP": "TOOLTIP",
+                    "LINK": "LINK"
+                },
+                "description": {
+                    "DESCRIPTION": "DESCRIPTION"
+                }
+            }
+        }
+    },
+
+    "PropertyDefinitions": {
+        "CREATION_DATE": {
+            "Representation": "DatePicker"
+        },
+        "TERMINATION_DATE": {
+            "Representation": "DatePicker"
+        },
+        "ID": {
+            "Representation": "TextField",
+            "isReadOnly": true
+        },
+        "DATA_SOURCE_ID": {
+            "Representation": "TextField",
+            "useBindingHandler": true,
+            "isReadOnly": true
+        },
+        "EXTERNAL_ID": {
+            "Representation": "TextField",
+            "isReadOnly": true
+        },
+        "UNIQUE_IDENTIFIER": {
+            "Representation": "TextField",
+            "isReadOnly": true
+        },
+        "TAG": {
+            "Representation": "TextField"
+        },
+        "USER_DATA": {
+            "Representation": "TextField"
+        },
+        "TOOLTIP": {
+            "Representation": "TextLinkField"
+        },
+        "LINK": {
+            "Representation": "TextField"
+        },
+        "DESCRIPTION": {
+            "Representation": "TextEdit"
+        }
+    }
+}

@@ -1,0 +1,238 @@
+{
+	"AssetList" : {
+		"Decoration" : {
+			"Panels" : {
+				"attributes" : {
+					"StartStation" : "START_STATION",
+					"EndStation" : "END_STATION"
+				},
+				"type" : {
+					"Material" : "DECORATION_LINK_IMAGE"
+				},
+				"geometry" : {
+					"Length" : "LENGTH",
+					"StartOffset" : "START_OFFSET",
+					"Spacing" : "SPACING",
+					"HOffset" : "H_OFFSET",
+					"VOffset" : "V_OFFSET",
+					"Scale" : "SCALE",
+					"Rotation" : "ROTATION",
+					"Tilting" : "TILTING"
+				},
+                "lifespan" : {
+                    "CreationDate": "CREATION_DATE",
+                    "TerminationDate": "TERMINATION_DATE"
+                },
+				"advanced" : { 
+                    "ID": "ID",
+                    "DataSourceID": "DATA_SOURCE_ID",
+                    "ExternalID": "EXTERNAL_ID",
+                    "UniqueIdentifier": "UNIQUE_IDENTIFIER",
+                    "Tag": "TAG",
+                    "UserData": "USER_DATA",
+                    "ToolTip": "TOOLTIP",
+                    "Link": "LINK"
+                },
+                "description" : {
+                    "Description": "DESCRIPTION"
+                }
+			}
+		}
+	},
+
+	"PropertyDefinitions" : {
+        "CREATION_DATE": {
+            "Representation": "DatePicker",
+			"CaptionText" : "Creation Date",
+			"isReadOnly": false
+        },
+        "TERMINATION_DATE": {
+            "Representation": "DatePicker",
+			"CaptionText" : "Termination Date",
+			"isReadOnly": false
+        },
+        "ID": {
+            "Representation": "TextField",
+			"CaptionText" : "ID",
+            "isReadOnly": true
+        },
+        "DATA_SOURCE_ID": {
+            "Representation": "TextField",
+			"CaptionText" : "Data Source",
+            "useBindingHandler": true,
+            "isReadOnly": true
+        },
+        "EXTERNAL_ID": {
+            "Representation": "TextField",
+			"CaptionText" : "External ID",
+            "isReadOnly": true
+        },
+        "UNIQUE_IDENTIFIER": {
+            "Representation": "TextField",
+			"CaptionText" : "Unique Identifier",
+            "isReadOnly": true
+        },
+        "TAG": {
+            "Representation": "TextField",
+			"CaptionText" : "Tag",
+			"isReadOnly": false
+        },
+        "USER_DATA": {
+            "Representation": "TextField",
+			"CaptionText" : "User Data",
+			"isReadOnly": false
+        },
+        "TOOLTIP": {
+            "Representation": "TextLinkField",
+			"CaptionText" : "Tooltip",
+			"isReadOnly": false
+        },
+        "LINK": {
+            "Representation": "TextField",
+			"CaptionText" : "Link",
+			"isReadOnly": false
+        },
+        "DESCRIPTION": {
+            "Representation": "TextEdit",
+			"isReadOnly": false
+        },
+		"START_STATION" :{
+			"Representation" : "TextField",
+			"CaptionText" : "Start station",
+			"isReadOnly" : true,
+			"Formatter" : "Station"
+		},
+		"END_STATION": {
+			"Representation" : "TextField",
+			"CaptionText" : "End station",
+			"isReadOnly": true,
+			"Formatter" : "Station"
+		},
+		"MATERIAL" :{
+			"Representation" : "StylePicker",
+			"CaptionText" : "Material",
+			"isReadOnly": false
+		},
+		"LENGTH" :{
+			"Representation" : "TextField",
+			"CaptionText" : "Length",
+			"Formatter" : "Distance",
+			"isReadOnly": true
+		},
+		"DECORATION_LINK_IMAGE" : {
+			"Representation" : "DecorationLinkImage",
+			"CaptionText" : "Model"
+		},
+		"START_OFFSET" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Start Offset",
+			"UnitType": "LengthUnit",
+			"DataType" : "Double",
+			"isReadOnly": false,
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : -1000
+				},
+				"Max" : {
+					"Value" : 1000
+				},
+				"IsError" : true
+			}
+			
+		},
+		"SPACING" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Spacing",
+			"UnitType": "LengthUnit",
+			"DataType" : "Double",
+			"isReadOnly": false,
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : 0.001
+				},
+				"Max" : {
+					"Value" : 10000
+				},
+				"IsError" : true
+			}
+		},
+		"H_OFFSET" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Horizontal Offset",
+			"UnitType": "LengthUnit",
+			"DataType" : "Double",
+			"isReadOnly": false,
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : -1000
+				},
+				"Max" : {
+					"Value" : 1000
+				},
+				"IsError" : true
+			}
+		},
+		"V_OFFSET" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Vertical Offset",
+			"UnitType": "LengthUnit",
+			"DataType" : "Double",
+			"isReadOnly": false,
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : -1000
+				},
+				"Max" : {
+					"Value" : 1000
+				},
+				"IsError" : true
+			}
+		},
+		"SCALE" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Scale",
+			"DataType" : "Double",
+			"isReadOnly": false,
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : 0
+				},
+				"Max" : {
+					"Value" : 1000
+				},
+				"IsError" : true
+			}
+		},
+		"ROTATION" : {
+			"Representation" : "TextField",
+			"CaptionText" : "Rotation",
+			"UnitType" : "AngleUnit",
+			"DataType" : "Double",
+			"isReadOnly": false,
+			"Validator" : {
+				"Type" : "NumericRange",
+				"Min" : {
+					"Value" : 0
+				},
+				"Max" : {
+					"Value" : 360
+				},
+				"IsError" : true
+			}
+		},
+		"TILTING" : {
+			"Representation" : "ToggleButton",
+			"CaptionText" : "Tilting",
+			"isReadOnly": false
+		},
+		"CLATTACHMENT" : {
+			"Representation" : "Dropdown",
+			"CaptionText" : "Centerline Attachment"
+		}
+	}
+}

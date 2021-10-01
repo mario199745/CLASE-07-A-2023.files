@@ -1,0 +1,14 @@
+TileCache.sqlite
+TileCache/
+Resources/TerrainTextures/
+Resources/PointClouds/
+Resources/Translations/
+Resources/TrafficModels/
+Resources/WatershedAnalysis/
+Resources/BridgeAnalysis/
+Resources/Analysis/*/object/
+Resources/Analysis/*/config/
+Resources/Analysis/*/record/
+Scenarios/
+Index/
+unver/

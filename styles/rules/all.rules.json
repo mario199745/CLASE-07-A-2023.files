@@ -1,0 +1,410 @@
+{
+	"StyleRules": [
+		{
+			"Enabled": true,
+			"Name": "Barrier",
+			"Description": "Concrete barrier",
+			"TargetType": "COVERAGES",
+			"Filter": "TAG = 'Barrier'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Material/Roadway/Surface Concrete Linear Pattern 2w 2h",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": false,
+			"Name": "Base",
+			"Description": "Link on the base surface of paved sections",
+			"TargetType": "COVERAGES",
+			"Filter": "TAG = 'Base'",
+			"Styles": []
+		},
+		{
+			"Enabled": false,
+			"Name": "Basic",
+			"Description": "",
+			"TargetType": "COVERAGES",
+			"Filter": "TAG = 'Basic'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Material/Colors/Transparent",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": true,
+			"Name": "Curb - Top",
+			"Description": "Link comprising a curb or curb and gutter",
+			"TargetType": "COVERAGES",
+			"Filter": "TAG = 'Curb - Top'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Material/Roadway/Surface Concrete Linear Pattern 2w 2h",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": false,
+			"Name": "Datum",
+			"Description": "Bottom finish grade",
+			"TargetType": "COVERAGES",
+			"Filter": "TAG = 'Datum'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Material/Colors/Transparent",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": true,
+			"Name": "Daylight",
+			"Description": "Daylight links",
+			"TargetType": "COVERAGES",
+			"Filter": "TAG = 'Daylight'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Material/Land Cover/Manicured Grass",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": true,
+			"Name": "Daylight_Cut",
+			"Description": "Cut daylight links",
+			"TargetType": "COVERAGES",
+			"Filter": "TAG = 'Daylight_Cut'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Material/Land Cover/Manicured Grass",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": true,
+			"Name": "Daylight_Fill",
+			"Description": "Fill daylight links",
+			"TargetType": "COVERAGES",
+			"Filter": "TAG = 'Daylight_Fill'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Material/Land Cover/Manicured Grass",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": true,
+			"Name": "Grass Areas",
+			"Description": "",
+			"TargetType": "COVERAGES",
+			"Filter": "TAG = 'Grass Areas'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Material/Land Cover/Manicured Grass",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": true,
+			"Name": "Gravel",
+			"Description": "Finish grade surfaces above gravel shoulders with subbase",
+			"TargetType": "COVERAGES",
+			"Filter": "TAG = 'Gravel'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Material/Land Cover/Tallus",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": true,
+			"Name": "Lot",
+			"Description": "Lot grading",
+			"TargetType": "COVERAGES",
+			"Filter": "TAG = 'Lot'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Material/Land Cover/Manicured Grass",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": false,
+			"Name": "Mill",
+			"Description": "Pavement removal surface",
+			"TargetType": "COVERAGES",
+			"Filter": "TAG = 'Mill'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Material/Colors/Transparent",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": true,
+			"Name": "Pave",
+			"Description": "Any finished grade surface on a paved section",
+			"TargetType": "COVERAGES",
+			"Filter": "TAG = 'Pave'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Material/Roadway/Surface Black Asphalt 1.024w 1.024h",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": false,
+			"Name": "Pave1",
+			"Description": "First pavement surface below finish grade",
+			"TargetType": "COVERAGES",
+			"Filter": "TAG = 'Pave1'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Material/Colors/Transparent",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": false,
+			"Name": "Pave2",
+			"Description": "Second pavement surface below finish grade",
+			"TargetType": "COVERAGES",
+			"Filter": "TAG = 'Pave2'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Material/Colors/Transparent",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": true,
+			"Name": "Sidewalk",
+			"Description": "Link comprising sidewalk",
+			"TargetType": "COVERAGES",
+			"Filter": "TAG = 'Sidewalk'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Material/Roadway/Surface Concrete Linear Pattern 2w 2h",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": true,
+			"Name": "Strip",
+			"Description": "Topsoil stripping surface",
+			"TargetType": "COVERAGES",
+			"Filter": "TAG = 'Strip'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Material/Colors/Transparent",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": false,
+			"Name": "SubBase",
+			"Description": "Links on subbase surface of paved sections",
+			"TargetType": "COVERAGES",
+			"Filter": "TAG = 'SubBase'",
+			"Styles": []
+		},
+		{
+			"Enabled": true,
+			"Name": "Top",
+			"Description": "Top formation links",
+			"TargetType": "COVERAGES",
+			"Filter": "TAG = 'Top'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Material/Colors/Transparent",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": true,
+			"Name": "Uncoded",
+			"Description": "",
+			"TargetType": "COVERAGES",
+			"Filter": "TAG = 'Uncoded'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Material/Colors/Transparent",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": true,
+			"Name": "Basic",
+			"Description": "Civil 3D alignment style rule",
+			"TargetType": "ROADS",
+			"Filter": "TAG = 'Basic'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Street/Street w_Sidewalk",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": true,
+			"Name": "Existing",
+			"Description": "Civil 3D alignment style rule",
+			"TargetType": "ROADS",
+			"Filter": "TAG = 'Existing'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Street/Street w_Sidewalk",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": true,
+			"Name": "Intersection Basic",
+			"Description": "Civil 3D alignment style rule",
+			"TargetType": "ROADS",
+			"Filter": "TAG = 'Intersection Basic'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Street/Street w_Sidewalk",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": true,
+			"Name": "Layout",
+			"Description": "Civil 3D alignment style rule",
+			"TargetType": "ROADS",
+			"Filter": "TAG = 'Layout'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Street/Null Road",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": true,
+			"Name": "Offsets",
+			"Description": "Civil 3D alignment style rule",
+			"TargetType": "ROADS",
+			"Filter": "TAG = 'Offsets'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Street/Null Road",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": true,
+			"Name": "Proposed",
+			"Description": "Civil 3D alignment style rule",
+			"TargetType": "ROADS",
+			"Filter": "TAG = 'Proposed'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Street/Null Road",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": true,
+			"Name": "Standard",
+			"Description": "Civil 3D alignment style rule",
+			"TargetType": "ROADS",
+			"Filter": "TAG='Standard'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Street/Street w_Sidewalk",
+						"Probability": 1
+					}
+				}
+			]
+		},
+		{
+			"Enabled": true,
+			"Name": "Local Road",
+			"Description": "Civil 3D alignment style rule",
+			"TargetType": "ROADS",
+			"Filter": "TAG='Local Road'",
+			"Styles": [
+				{
+					"Style": {
+						"ID": "Street/Street w_Sidewalk",
+						"Probability": 1
+					}
+				}
+			]
+		}
+	]
+}

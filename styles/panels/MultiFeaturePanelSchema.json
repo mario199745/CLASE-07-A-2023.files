@@ -1,0 +1,32 @@
+{
+    "AssetList" : {
+        "__various__": { 
+            "Panels" :{
+                "lifespan" : {
+                    "CREATION_DATE": "CREATION_DATE",
+                    "TERMINATION_DATE": "TERMINATION_DATE"
+                },
+
+                "description" : {
+                    "DESCRIPTION": "DESCRIPTION"
+                } 
+            }
+        }
+	},
+	
+    "PropertyDefinitions": {
+        "EXTERNAL_ID": {
+            "Representation": "TextField",
+            "isReadOnly": true
+        },
+        "CREATION_DATE": {
+            "Representation": "DatePicker"
+        },
+        "TERMINATION_DATE": {
+            "Representation": "DatePicker"
+        },
+        "DESCRIPTION": {
+            "Representation": "TextEdit"
+        }
+    }
+}

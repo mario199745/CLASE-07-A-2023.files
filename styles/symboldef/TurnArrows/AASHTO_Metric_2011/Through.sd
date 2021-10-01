@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimpleSymbolDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SymbolDefinition-1.1.0.xsd" version="1.1.0">
+  <Name>through arrow</Name>
+  <Graphics>
+    <Path>
+      <Geometry>
+        M -2.8956,-0.1524
+        L -2.8956, 0.1524
+		L -2.4000, 0.1524
+		L -2.0000, 0.1524
+		L -1.6000, 0.1524
+        L -1.2192, 0.1524
+        L -1.5240, 0.5080
+        L  0.0000, 0.0000
+        L -1.5240,-0.5080
+        L -1.2192,-0.1524
+		L -1.6000,-0.1524
+		L -2.0000,-0.1524
+		L -2.4000,-0.1524
+        Z
+      </Geometry>
+      <FillColor>ffffffff</FillColor>
+    </Path>
+  </Graphics>
+  <LineUsage>
+    <VertexControl>'OverlapWrap'</VertexControl>
+    <EndOffset>3.9906</EndOffset>
+    <Repeat>0.0000</Repeat>
+  </LineUsage>
+  <ParameterDefinition/>
+</SimpleSymbolDefinition>

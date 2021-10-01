@@ -1,0 +1,688 @@
+{
+    "AssetList" : {
+        "DefaultPanelLayout": { 
+            "Panels" :{
+                "advanced" : { 
+                    "ID": "ID",
+                    "DATA_SOURCE_ID": "DATA_SOURCE_ID",
+                    "EXTERNAL_ID": "EXTERNAL_ID",
+                    "GUID": "UNIQUE_IDENTIFIER",
+                    "TAG": "TAG",
+                    "USER_DATA": "USER_DATA",
+                    "TOOLTIP": "TOOLTIP",
+                    "LINK": "LINK"
+                },
+                "lifespan" : {
+                    "CREATION_DATE": "CREATION_DATE",
+                    "TERMINATION_DATE": "TERMINATION_DATE"
+                },
+
+                "type" : {
+                    "MANUAL_STYLE": "MANUAL_STYLE",
+                    "RULE_STYLE": "RULE_STYLE"
+                },
+
+                "description" : {
+                    "DESCRIPTION": "DESCRIPTION"
+                },
+
+                "attributes" : null 
+            }
+        },
+
+        "TERRAIN_OVERLAYS": {
+            "Extends" : "DefaultPanelLayout",
+            "Panels" : {
+                "type" : null,
+                "attributes" : {
+                    "OPACITY": "OPACITY"
+                }
+            }
+        },
+
+        "TERRAIN_SURFACE_LAYERS": {
+            "Panels" : {
+                "type" : {
+                    "MATERIAL" : "MATERIAL"
+                },
+                "attributes" : {
+                    "OPACITY": "OPACITY"
+                }
+            }
+        },
+
+        "WATER_AREAS": {
+            "Extends" : "DefaultPanelLayout",
+            "Panels" : {
+                "geometry": {
+                    "BANK_WIDTH": "BANK_WIDTH",
+                    "BUFFER_WIDTH": "BUFFER_WIDTH",
+                    "WATER_LEVEL": "WATER_LEVEL",
+                    "GENERALIZATION": "GENERALIZATION",
+                    "TESSELLATION": "TESSELLATION"
+                }
+            }
+        },
+
+        "CITY_FURNITURE": {
+            "Extends" : "DefaultPanelLayout",
+             "Panels" : {
+                "geometry": {
+                    "SPACING": "SPACING",
+                    "SPACING_VARIANCE": "SPACING_VARIANCE"
+                }
+            }
+        },
+
+        "BUILDINGS": {
+            "Extends" : "DefaultPanelLayout",
+            "Panels" : {            
+                "type": {
+                    "BASE_COLOR": "BASE_COLOR",
+                    "ROOF_MATERIAL": "ROOF_MATERIAL"
+                },
+                "advanced" : {
+                    "BUILDING_COMPLEX_ID": "BUILDING_COMPLEX_ID"
+                },
+                "geometry" : {
+                    "ROOF_HEIGHT": "ROOF_HEIGHT",
+                    "ROOF_HEIGHT_ABSOLUTE": "ROOF_HEIGHT_ABSOLUTE",
+                    "ROOF_SLOPE": "ROOF_SLOPE",
+                    "ELEVATION_OFFSET": "ELEVATION_OFFSET"  
+                }
+            }
+        },
+
+        "TREES": {
+            "Extends" : "DefaultPanelLayout"
+        },
+
+        "LINEAR_FEATURES": {
+            "Extends" : "DefaultPanelLayout",
+            "Panels" : {
+                "advanced" : {
+                    "FEATURE_CODE": "FEATURE_CODE"
+                }
+            }
+        },
+
+        "RAILWAYS": {
+            "Extends" : "DefaultPanelLayout",
+            "Panels" : {
+                "type" : {
+                    "MATERIAL_GROUP": "MATERIAL_GROUP"
+                },
+                "attributes" : {
+                    "LANES": "LANES"
+                },
+                "geometry" : {
+                    "ELEVATION_OFFSET": "ELEVATION_OFFSET",
+                    "ELEV_FROM": "ELEV_FROM",
+                    "ELEV_TO": "ELEV_TO",
+                    "MAX_SLOPE": "MAX_SLOPE",
+                    "TRANSITION_LENGTH_AT_START": "TRANSITION_LENGTH_AT_START",
+                    "TRANSITION_LENGTH_AT_END": "TRANSITION_LENGTH_AT_END",
+                    "STACKED_ORDER_FROM": "STACKED_ORDER_FROM",
+                    "STACKED_ORDER_TO": "STACKED_ORDER_TO"
+                }
+            }
+        },
+
+        "ROADS": {
+          "Extends": "DefaultPanelLayout",
+          "Panels": {
+            "type": {
+              "MATERIAL_GROUP": "MATERIAL_GROUP"
+            },
+            "attributes": {
+              "FUNCTION": "FUNCTION",
+              "MAX_SPEED": "MAX_SPEED",
+              "LANES_FORWARD": "LANES_FORWARD",
+              "LANES_BACKWARD": "LANES_BACKWARD"
+            },
+            "geometry": {
+              "ELEVATION_OFFSET": "ELEVATION_OFFSET",
+              "ELEV_FROM": "ELEV_FROM",
+              "ELEV_TO": "ELEV_TO",
+              "MAX_SLOPE": "MAX_SLOPE",
+              "REVERSE_DIRECTION": "REVERSE_DIRECTION",
+              "TRANSITION_LENGTH_AT_START": "TRANSITION_LENGTH_AT_START",
+              "TRANSITION_LENGTH_AT_END": "TRANSITION_LENGTH_AT_END",
+              "STACKED_ORDER_FROM": "STACKED_ORDER_FROM",
+              "STACKED_ORDER_TO": "STACKED_ORDER_TO"
+            }
+          }
+        },
+
+       "RIGHT_OF_WAYS": {
+           "Extends": "DefaultPanelLayout",
+           "Panels": {
+               "advanced": {
+                   "LOT_ID": "LOT_ID",
+                   "OWNER_NAME": "OWNER_NAME"
+               },
+               "geometry": {
+                   "AREA": "AREA",
+                   "PERIMETER": "PERIMETER"
+               }
+
+           },
+            "InbuiltPanels": {
+               "contours" : {"Name" :  "Contours"}
+           }
+       },
+
+        "PARCELS": {
+            "Extends": "DefaultPanelLayout",
+            "Panels": {
+                "advanced": {
+                    "LOT_ID": "LOT_ID",
+                    "OWNER_NAME": "OWNER_NAME"
+                },
+                "geometry": {
+                    "AREA": "AREA",
+                    "PERIMETER": "PERIMETER"
+                }
+            },
+            "InbuiltPanels": {
+               "contours" : {"Name" :  "Contours"}
+            }
+        },
+
+        "EASEMENTS": {
+            "Extends": "DefaultPanelLayout",
+            "Panels": {
+                "advanced": {
+                    "LOT_ID" :  "LOT_ID",
+                    "OWNER_NAME": "OWNER_NAME"
+                },
+                "geometry": {
+                    "AREA": "AREA",
+                    "PERIMETER": "PERIMETER"
+                }
+            },
+            "InbuiltPanels": {
+               "contours" : {"Name" :  "Contours"}
+            }
+        },
+
+        "COVERAGES": {
+            "Extends" : "DefaultPanelLayout",
+            "Panels" : {
+                "attributes" : {
+                    "CATEGORY": "CATEGORY",
+                    "HARD_COST": "HARD_COST",
+                    "SOFT_COST": "SOFT_COST",
+                    "COST_METHOD": "COST_METHOD"
+                },
+                "geometry" : {
+                    "AREA": "AREA",
+                    "BUFFER": "BUFFER",
+                    "SMOOTH_RADIUS": "SMOOTH_RADIUS"
+                }
+            },
+            "InbuiltPanels": {
+               "contours" : {"Name" :  "Contours"}
+            }
+        },
+
+        "LAND_AREAS": {
+            "Extends" : "DefaultPanelLayout",
+            "Panels" : {
+                "type" : {
+                    "MANUAL_GRADING_BEHAVIOR": "MANUAL_GRADING_BEHAVIOR",
+                    "RULE_GRADING_BEHAVIOR": "RULE_GRADING_BEHAVIOR"
+                },
+                "geometry" : {    
+                    "GENERALIZATION": "GENERALIZATION",
+                    "TESSELLATION": "TESSELLATION"
+                }
+            }
+        },
+
+        "BARRIERS": {
+            "Extends" : "DefaultPanelLayout",
+            "Panels" : {
+                "geometry" : {  
+                    "HEIGHT": "HEIGHT",
+                    "ELEVATION_OFFSET": "ELEVATION_OFFSET",
+                    "SPACING": "SPACING",
+                    "SPACING_VARIANCE": "SPACING_VARIANCE"
+                }
+            }
+        },
+
+        "POIS": {
+            "Extends" : "DefaultPanelLayout",
+            "Panels" : {
+                "advanced" : {
+                    "PROXIMITY_DISTANCE": "PROXIMITY_DISTANCE"
+                }
+            }
+        },
+
+        "PIPELINES": {
+            "Extends" : "DefaultPanelLayout",
+            "Panels" : {
+                "type" : {
+                    "PIPE_MATERIAL": "PIPE_MATERIAL"
+                },
+                "attributes" : {
+                    "NETWORKNAME": "NETWORKNAME",
+                    "PIPE_TYPE": "PIPE_TYPE",
+                    "UTILITY_TYPE": "UTILITY_TYPE"
+                },
+                "geometry" :{
+                    "SIZE_X": "SIZE_X",
+                    "SIZE_Y": "SIZE_Y",
+                    "ELEVATION_OFFSET": "ELEVATION_OFFSET",
+                    "ELEV_FROM": "ELEV_FROM",
+                    "ELEV_TO": "ELEV_TO"
+                }
+            }
+        },
+
+        "PIPE_CONNECTORS": {
+            "Extends" : "DefaultPanelLayout",
+            "Panels" : {
+                "attributes" : {
+                    "NETWORKNAME": "NETWORKNAME",
+                    "UTILITY_TYPE": "UTILITY_TYPE",
+                    "PART_TYPE": "PART_TYPE",
+                    "CONNECTOR_TYPE": "CONNECTOR_TYPE",
+                    "ORIENTATION": "ORIENTATION"
+                },
+                "geometry" :{    
+                    "HEIGHT": "HEIGHT",
+                    "BARREL_HEIGHT": "BARREL_HEIGHT",
+                    "SIZE_X": "SIZE_X",
+                    "SIZE_Y": "SIZE_Y",
+                    "CAP_OFFSET": "CAP_OFFSET",
+                    "ELEVATION_OFFSET": "ELEVATION_OFFSET",
+                    "TOP_LONGITUDINAL_SLOPE": "TOP_LONGITUDINAL_SLOPE",
+                    "TOP_CROSS_SLOPE": "TOP_CROSS_SLOPE"
+                }
+            }
+        }
+    },
+
+
+    "PropertyDefinitions": {
+        "ID": {
+            "Representation": "TextField",
+            "isReadOnly": true
+        },
+        "DATA_SOURCE_ID": {
+            "Representation": "TextField",
+            "useBindingHandler": true,
+            "isReadOnly": true
+        },
+        "EXTERNAL_ID": {
+            "Representation": "TextField",
+            "isReadOnly": true
+        },
+        "TAG": {
+            "Representation": "TextField"
+        },
+        "USER_DATA": {
+            "Representation": "TextField"
+        },
+        "TOOLTIP": {
+            "Representation": "TextLinkField"
+        },
+        "LINK": {
+            "Representation": "TextField"
+        },
+        "BUILDING_COMPLEX_ID": {
+            "Representation": "TextField"
+        },
+        "PROXIMITY_DISTANCE": {
+            "Representation": "TextField",
+            "UnitType": "LengthUnit",
+            "DataType": "Double"
+        },
+        "UNIQUE_IDENTIFIER": {
+            "Representation": "TextField",
+            "isReadOnly": true
+        },
+        "CREATION_DATE": {
+            "Representation": "DatePicker"
+        },
+        "TERMINATION_DATE": {
+            "Representation": "DatePicker"
+        },
+        "MANUAL_STYLE": {
+            "Representation": "StylePicker"
+        },
+        "MATERIAL": {
+            "Representation": "StylePicker"
+        },
+        "RULE_STYLE": {
+            "Representation": "StylePicker"
+        },
+        "BASE_COLOR": {
+            "Representation": "ColorPicker"
+        },
+        "ROOF_MATERIAL": {
+            "Representation": "StylePicker"
+        },
+        "MATERIAL_GROUP": {
+            "Representation": "StylePicker"
+        },
+        "PIPE_MATERIAL": {
+            "Representation": "TextField"
+        },
+        "MANUAL_GRADING_BEHAVIOR": {
+            "Representation": "StylePicker"
+        },
+        "RULE_GRADING_BEHAVIOR": {
+            "Representation": "StylePicker"
+        },
+        "BANK_WIDTH": {
+            "Representation": "TextField",
+            "UnitType": "WidthUnit",
+            "DataType": "Double",
+            "Validator": {
+                "Type": "PositiveNumericValue"
+            }
+        },
+        "BUFFER_WIDTH": {
+            "Representation": "TextField",
+            "UnitType": "WidthUnit",
+            "DataType": "Double",
+            "Validator": {
+                "Type": "PositiveNumericValue"
+            }
+        },
+        "WATER_LEVEL": {
+            "Representation": "TextField",
+            "UnitType": "LengthUnit",
+            "DataType": "Double",
+            "Validator": {
+                "Type": "NumericValue"
+            }
+        },
+        "SPACING": {
+            "Representation": "TextField",
+            "DataType": "Double",
+            "UnitType": "LengthUnit"
+        },
+        "SPACING_VARIANCE": {
+            "Representation": "TextField",
+            "DataType": "Double"
+        },
+        "MODEL_ROTATE_X": {
+            "Representation": "TextField",
+            "DataType": "Double"
+        },
+        "MODEL_ROTATE_Y": {
+            "Representation": "TextField",
+            "DataType": "Double"
+        },
+        "MODEL_ROTATE_Z": {
+            "Representation": "TextField",
+            "DataType": "Double"
+        },
+        "MODEL_SCALE_X": {
+            "Representation": "TextField",
+            "DataType": "Double"
+        },
+        "MODEL_SCALE_Y": {
+            "Representation": "TextField",
+            "DataType": "Double"
+        },
+        "MODEL_SCALE_Z": {
+            "Representation": "TextField",
+            "DataType": "Double"
+        },
+        "MODEL_TRANSLATE_X": {
+            "Representation": "TextField",
+            "DataType": "Double",
+            "UnitType": "LengthUnit"
+        },
+        "MODEL_TRANSLATE_Y": {
+            "Representation": "TextField",
+            "DataType": "Double",
+            "UnitType": "LengthUnit"
+        },
+        "MODEL_TRANSLATE_Z": {
+            "Representation": "TextField",
+            "DataType": "Double",
+            "UnitType": "LengthUnit"
+        },
+        "ELEVATION_OFFSET": {
+            "Representation": "TextField",
+            "UnitType": "LengthUnit",
+            "DataType": "Double"
+        },
+        "TRANSITION_LENGTH_AT_START": {
+            "Representation": "TextField",
+            "UnitType": "LengthUnit",
+            "DataType": "Double"
+        },
+        "TRANSITION_LENGTH_AT_END": {
+            "Representation": "TextField",
+            "UnitType": "LengthUnit",
+            "DataType": "Double"
+        },
+        "REVERSE_DIRECTION": {
+            "Representation": "ToggleButton"
+        },
+        "ROOF_HEIGHT": {
+            "Representation": "TextField",
+            "UnitType": "LengthUnit",
+            "DataType": "Double",
+            "Validator": {
+                "Type": "Group",
+                "Group": "RoofHeight",
+                "Name": "RoofHeight"
+            }
+        },
+        "ROOF_HEIGHT_ABSOLUTE": {
+            "Representation": "ToggleButton",
+            "Validator": {
+                "Type": "Group",
+                "Group": "RoofHeight",
+                "Name": "IsAbsolute"
+            }
+        },
+        "ROOF_SLOPE": {
+            "Representation": "TextField",
+            "UnitType": "AngleUnit",
+            "DataType": "Double",
+            "Validator": {
+                "Type": "NumericRange",
+                "Min": {
+                    "Value": 0.0
+                },
+                "Max": {
+                    "Value": 85.0
+                },
+                "IsError": false
+            }
+        },
+        "ELEV_FROM": {
+            "Representation": "TextField",
+            "UnitType": "LengthUnit",
+            "DataType": "Double"
+        },
+        "ELEV_TO": {
+            "Representation": "TextField",
+            "UnitType": "LengthUnit",
+            "DataType": "Double"
+        },
+        "MAX_SLOPE": {
+            "Representation": "TextField",
+            "UnitType": "AngleUnit",
+            "DataType": "Double"
+        },
+        "AREA": {
+          "Representation": "TextField",
+          "UnitType": "AreaUnit",
+          "DataType": "Double",
+          "isReadOnly": true
+        },
+        "PERIMETER": {
+          "Representation": "TextField",
+          "UnitType": "LengthUnit",
+          "DataType": "Double",
+          "isReadOnly": true
+        },
+        "LOT_ID": {
+          "Representation": "TextField"
+        },
+        "OWNER_NAME": {
+          "Representation": "TextField"
+        },
+        "BUFFER": {
+            "Representation": "TextField",
+            "UnitType": "WidthUnit",
+            "DataType": "Double",
+            "Validator": {
+                "Type": "PositiveNumericValue"
+            }
+        },
+        "SMOOTH_RADIUS": {
+            "Representation": "TextField",
+            "UnitType": "LengthUnit",
+            "DataType": "Double"
+        },
+        "SIZE_X": {
+            "Representation": "TextField",
+            "UnitType": "WidthUnit",
+            "DataType": "Double"
+        },
+        "SIZE_Y": {
+            "Representation": "TextField",
+            "UnitType": "WidthUnit",
+            "DataType": "Double"
+        },
+        "HEIGHT": {
+            "Representation": "TextField",
+            "UnitType": "LengthUnit",
+            "DataType": "Double"
+        },
+        "BARREL_HEIGHT": {
+            "Representation": "TextField",
+            "UnitType": "LengthUnit",
+            "DataType": "Double"
+        },
+        "CAP_OFFSET": {
+            "Representation": "TextField",
+            "UnitType": "LengthUnit",
+            "DataType": "Double"
+        },
+        "TOP_LONGITUDINAL_SLOPE": {
+            "Representation": "TextField",
+            "UnitType": "AngleUnit",
+            "DataType": "Double"
+        },
+        "TOP_CROSS_SLOPE": {
+            "Representation": "TextField",
+            "UnitType": "AngleUnit",
+            "DataType": "Double"
+        },
+        "GENERALIZATION": {
+            "Representation": "TextField",
+            "UnitType": "LengthUnit",
+            "DataType": "Double",
+            "Validator": {
+                "Type": "PositiveNumericValue"
+            }
+        },
+        "TESSELLATION": {
+            "Representation": "TextField",
+            "UnitType": "LengthUnit",
+            "DataType": "Double",
+            "Validator": {
+                "Type": "PositiveNumericValue"
+            }
+        },
+        "STACKED_ORDER_FROM": {
+            "Representation": "TextField",
+            "DataType": "Int32",
+            "Validator": {
+                "Name": "NumericValue"
+            }
+        },
+        "STACKED_ORDER_TO": {
+            "Representation": "TextField",
+            "DataType": "Int32",
+            "Validator": {
+                "Name": "NumericValue"
+            }
+        },
+        "LANES": {
+            "Representation": "TextField",
+            "DataType": "Int32"
+        },
+        "FUNCTION": {
+            "Representation": "TextField"
+        },
+        "MAX_SPEED": {
+            "Representation": "TextField",
+            "UnitType": "SpeedUnit",
+            "DataType": "Double"
+        },
+        "LANES_FORWARD": {
+            "Representation": "TextField",
+            "DataType": "Int32"
+        },
+        "LANES_BACKWARD": {
+            "Representation": "TextField",
+            "DataType": "Int32"
+        },
+        "CATEGORY": {
+            "Representation": "TextField"
+        },
+        "HARD_COST": {
+            "Representation": "TextField",
+            "DataType": "Double"
+        },
+        "SOFT_COST": {
+            "Representation": "TextField",
+            "DataType": "Double"
+        },
+        "COST_METHOD": {
+            "Representation": "TextField",
+            "DataType": "Int32"
+        },
+        "NETWORKNAME": {
+            "Representation": "TextField"
+        },
+        "PIPE_TYPE": {
+            "Representation": "TextField",
+            "DataType": "Int32"
+        },
+        "UTILITY_TYPE": {
+            "Representation": "TextField",
+            "DataType": "Int32",
+            "isReadOnly": true
+        },
+        "PART_TYPE": {
+            "Representation": "TextField",
+            "DataType": "Int32",
+            "isReadOnly": true
+        },
+        "CONNECTOR_TYPE": {
+            "Representation": "TextField",
+            "DataType": "Int32"
+        },
+        "ORIENTATION": {
+            "Representation": "TextField",
+            "DataType": "Double"
+        },
+        "OPACITY": {
+            "Representation": "PercentageSlider"
+        },
+        "DESCRIPTION": {
+            "Representation": "TextEdit"
+        },
+        "FEATURE_CODE": {
+            "Representation": "TextField"
+        },
+        "VISIBILITY": {
+            "Representation": "ToggleButton"
+        }
+	}
+}
