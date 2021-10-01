@@ -1,0 +1,13 @@
+[
+[1,"140486f7-c97b-4fb7-bc12-7032f80d7497",null,null,{"type": "LineString","coordinates": [[-77.17112953606815,-11.796559160125858,0]]},"d4cf88e2-6ac0-4adf-8546-891436746b85",null,null,"CONSTRAINED_DEFINITIONS","b7a76b31-18c4-4e19-9e47-b98c6122eda6",null,null,null,null,null,null,"f916ec87-e4dc-53e3-ba87-eec0fc5b35e3",1,0,0,1]
+,
+[2,"41ff7496-2463-4ef3-b41b-57fe68d0f2a0",null,null,{"type": "LineString","coordinates": [[-77.17112953606815,-11.796559160125858,0]]},"d4cf88e2-6ac0-4adf-8546-891436746b85",null,null,"CONSTRAINED_DEFINITIONS","b7a76b31-18c4-4e19-9e47-b98c6122eda6",null,null,null,null,null,null,"f916ec87-e4dc-53e3-ba87-eec0fc5b35e3",1,0,0,2]
+,
+[3,"85d55a1d-05fd-46e5-8725-79f02cea9d29",null,null,{"type": "LineString","coordinates": [[-77.159928760088079,-11.795383855930424,5.5879354476928711e-09]]},"d4cf88e2-6ac0-4adf-8546-891436746b85",null,null,"CONSTRAINED_DEFINITIONS","b7a76b31-18c4-4e19-9e47-b98c6122eda6",null,null,null,null,null,null,"5ffb09a5-b00f-55de-8400-8bfa3f257faf",7,0.99999999999999922,1436.1826807443938,3]
+,
+[4,"aee3dcdb-9ca0-4004-b7e0-4bbc12136e3e",null,null,{"type": "LineString","coordinates": [[-77.17112953606815,-11.796559160125858,0]]},"98fad0ab-48c8-4f8a-95e2-843d68dd5e70",null,null,"CONSTRAINED_DEFINITIONS","c8dcb016-32d2-4d07-b3d2-7c9423900055",null,null,null,null,null,null,"e3923200-45a8-57fd-a271-ad9c1cbf2b52",1,0,0,1]
+,
+[5,"d69cd2e5-ebe5-40ad-af3d-0b31fe30e87c",null,null,{"type": "LineString","coordinates": [[-77.17112953606815,-11.796559160125858,0]]},"98fad0ab-48c8-4f8a-95e2-843d68dd5e70",null,null,"CONSTRAINED_DEFINITIONS","c8dcb016-32d2-4d07-b3d2-7c9423900055",null,null,null,null,null,null,"e3923200-45a8-57fd-a271-ad9c1cbf2b52",1,0,0,2]
+,
+[6,"081e0c41-cf2f-4358-af51-384021749be1",null,null,{"type": "LineString","coordinates": [[-77.159928760088079,-11.795383855930424,5.5879354476928711e-09]]},"98fad0ab-48c8-4f8a-95e2-843d68dd5e70",null,null,"CONSTRAINED_DEFINITIONS","c8dcb016-32d2-4d07-b3d2-7c9423900055",null,null,null,null,null,null,"bfc7b2be-da77-522c-afa0-2991333f4ee3",7,0.99999999999999989,1443.0667113994584,3]
+]
