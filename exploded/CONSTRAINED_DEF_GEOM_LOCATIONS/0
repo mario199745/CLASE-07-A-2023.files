@@ -10,4 +10,24 @@
 [5,"d69cd2e5-ebe5-40ad-af3d-0b31fe30e87c",null,null,{"type": "LineString","coordinates": [[-77.17112953606815,-11.796559160125858,0]]},"98fad0ab-48c8-4f8a-95e2-843d68dd5e70",null,null,"CONSTRAINED_DEFINITIONS","c8dcb016-32d2-4d07-b3d2-7c9423900055",null,null,null,null,null,null,"e3923200-45a8-57fd-a271-ad9c1cbf2b52",1,0,0,2]
 ,
 [6,"081e0c41-cf2f-4358-af51-384021749be1",null,null,{"type": "LineString","coordinates": [[-77.159928760088079,-11.795383855930424,5.5879354476928711e-09]]},"98fad0ab-48c8-4f8a-95e2-843d68dd5e70",null,null,"CONSTRAINED_DEFINITIONS","c8dcb016-32d2-4d07-b3d2-7c9423900055",null,null,null,null,null,null,"bfc7b2be-da77-522c-afa0-2991333f4ee3",7,0.99999999999999989,1443.0667113994584,3]
+,
+[7,"5713098e-a1c7-4264-8391-aafec7f5ec05",null,null,{"type": "LineString","coordinates": [[-77.16719576524784,-11.770786389893205,0]]},null,null,null,"CONSTRAINED_DEFINITIONS","fc8ea8c7-f582-4071-95a7-d7ca3c61cc39",null,null,null,null,null,null,"63246679-ff72-44c2-a9dd-c7fa76dc0a0a",1,0,0,1]
+,
+[8,"7ff89f59-1e45-46ad-9bf7-73cee1517dde",null,null,{"type": "LineString","coordinates": [[-77.16719576524784,-11.770786389893205,0]]},null,null,null,"CONSTRAINED_DEFINITIONS","fc8ea8c7-f582-4071-95a7-d7ca3c61cc39",null,null,null,null,null,null,"63246679-ff72-44c2-a9dd-c7fa76dc0a0a",1,0,0,2]
+,
+[9,"3471148c-63ad-4adb-8647-4da6d479ae1d",null,null,{"type": "LineString","coordinates": [[-77.166288185765396,-11.773318510941841,-9.3132257461547852e-10]]},null,null,null,"CONSTRAINED_DEFINITIONS","fc8ea8c7-f582-4071-95a7-d7ca3c61cc39",null,null,null,null,null,null,"929d4214-e818-48b7-961e-ee7014e78b0c",11,1,358.87509849139792,3]
+,
+[10,"87421162-8529-4f30-b290-a66b0eddd4ed",null,null,{"type": "LineString","coordinates": [[-77.167182124923116,-11.770191996071706,-9.3132257461547852e-10]]},null,null,null,"CONSTRAINED_DEFINITIONS","b8f14448-7ae5-4b96-bb63-c7a5199841c6",null,null,null,null,null,null,"989678d2-de6c-44d7-9032-aae12a2065ca",1,0,0,1]
+,
+[11,"661bda84-ace1-4fd5-8c62-35f3d80953ba",null,null,{"type": "LineString","coordinates": [[-77.167182124923116,-11.770191996071706,-9.3132257461547852e-10]]},null,null,null,"CONSTRAINED_DEFINITIONS","b8f14448-7ae5-4b96-bb63-c7a5199841c6",null,null,null,null,null,null,"989678d2-de6c-44d7-9032-aae12a2065ca",1,0,0,2]
+,
+[12,"869083e4-7283-495e-8b8d-50d2fb71860f",null,null,{"type": "LineString","coordinates": [[-77.165183999999996,-11.773986000000003,-9.3132257461547852e-10]]},null,null,null,"CONSTRAINED_DEFINITIONS","b8f14448-7ae5-4b96-bb63-c7a5199841c6",null,null,null,null,null,null,"bd21bf1e-9bf8-4118-be86-f52c7a4be08e",18,0.99999999999999589,522.43787583284779,3]
+,
+[13,"0a9d8a41-7f0e-4a3a-a163-6f75e9b43df7",null,null,{"type": "LineString","coordinates": [[-77.167744290038414,-11.72726536821701,0]]},null,null,null,"CONSTRAINED_DEFINITIONS","2e4433a8-15fe-4a57-9d1d-b03cf90f8203",null,null,null,null,null,null,"f7cda01e-e6ef-4014-a9dc-2229d7532aa8",1,0,0,1]
+,
+[14,"5f65274f-f65b-48cc-ac28-bb5b074b230a",null,null,{"type": "LineString","coordinates": [[-77.167744290038414,-11.72726536821701,0]]},null,null,null,"CONSTRAINED_DEFINITIONS","2e4433a8-15fe-4a57-9d1d-b03cf90f8203",null,null,null,null,null,null,"f7cda01e-e6ef-4014-a9dc-2229d7532aa8",1,0,0,2]
+,
+[15,"6ed186c2-3fd6-41f3-bdbb-6235952612fd",null,null,{"type": "LineString","coordinates": [[-77.160438409065506,-11.732893103083205,7.4505805969238281e-09]]},null,null,null,"CONSTRAINED_DEFINITIONS","2e4433a8-15fe-4a57-9d1d-b03cf90f8203",null,null,null,null,null,null,"ca22e22c-c2e7-4a9b-a2f0-1b556d2b785e",2,1,1038.1199323089302,3]
+,
+[16,"9b879e4c-1537-4538-a4bd-2bd6a6f60276",null,null,{"type": "LineString","coordinates": [[-77.165174482415011,-11.773912156645503,0]]},null,null,null,"CONSTRAINED_DEFINITIONS","b8f14448-7ae5-4b96-bb63-c7a5199841c6",null,null,null,null,null,null,"bd21bf1e-9bf8-4118-be86-f52c7a4be08e",18,0.16784328269464169,514.20368147604313,0]
 ]
