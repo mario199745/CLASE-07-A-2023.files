@@ -1,9 +1,143 @@
 [
-[2,"e4d3c517-fb27-4c74-868f-71c6690ca1a7",null,null,{"type": "Point","coordinates": [-77.16789545937192,-11.773448936459745,52.626184700988233]},null,null,null,"MARKUP","d808ad12-e082-4fb4-94ec-22ed6c1ebd54",null,null,null,null,null,null,null,"3D Model/Buildings/Neighborhood/Gas Station with Convience Store",null,null,null,null,0.67857682704925537,0.67857682704925537,0.67857682704925537,null,null,-34.950426322602908,null,null,null,null,null,null,null,null]
-,
-[3,"e6d75b74-1d78-4398-a987-f73a10b3e547",null,null,{"type": "Point","coordinates": [-77.164146207955298,-11.775164430663173]},null,null,null,"MARKUP","922cd3b6-9475-4e2f-84c1-40a4b5f28845",null,null,null,null,null,null,null,"3D Model/Traffic & Barriers/Stop Sign",null,null,null,null,null,null,null,null,null,-90,null,null,null,null,null,null,null,null]
-,
-[4,"da0f3fa7-fbf2-51c8-9783-f4713095b289","Poste-30.sff",null,{"type": "Point","coordinates": [-77.163306343924077,-11.775362941502552,77.597778365947306]},"0e6586a6-32d5-43d9-bb9b-a320c67cc915","Poste-30.sff",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"Resources/3D Models/0e6586a6-32d5-43d9-bb9b-a320c67cc915/Poste-30.sff",null,null,null,null,null,null,null,null,null,true,false,null,null,null]
+[2,"e4d3c517-fb27-4c74-868f-71c6690ca1a7",null,null,{"type": "Point","coordinates": [-77.167940292864387,-11.773424849032669,49.923736546188593]},null,null,null,"MARKUP","d808ad12-e082-4fb4-94ec-22ed6c1ebd54",null,null,null,null,null,null,null,"3D Model/Buildings/Neighborhood/Gas Station with Convience Store",null,null,null,null,0.67857682704925537,0.67857682704925537,0.67857682704925537,null,null,-34.377468753722098,null,null,null,null,null,null,null,null]
 ,
 [5,"4d3f9c82-f811-4c08-bbf9-b42e13938549",null,null,{"type": "Point","coordinates": [-77.166652076516286,-11.774910228419943]},null,null,null,"MARKUP","054cc400-d25c-486b-970a-8a25ecc0d7b2",null,null,null,null,null,null,null,"3D Model/Traffic & Barriers/Zone 30",null,null,null,null,null,null,null,null,null,-138.08281988388626,null,null,null,null,null,null,null,null]
+,
+[6,"58288d49-96c4-4225-a474-6493dc218432",null,null,{"type": "Point","coordinates": [-77.166235670261244,-11.7741631696673,52.704282655380666]},null,null,null,"MARKUP","5b672af1-ea0f-4a38-9317-b054b6513a35",null,null,null,null,null,null,null,"3D Model/Vehicles/School Bus - Traditional",null,null,null,null,null,null,null,null,null,235,null,null,null,null,null,null,null,null]
+,
+[7,"ae3c5165-e26b-4c58-942b-b12865f07edb",null,null,{"type": "Point","coordinates": [-77.166213206746079,-11.774249223371292,52.576595121063292]},null,null,null,"MARKUP","947702ae-de54-4ce3-bce2-df2f09113ce8",null,null,null,null,null,null,null,"3D Model/Vehicles/Mercedes Transport Truck",null,null,null,null,1.1863898038864136,1.1863898038864136,1.1863898038864136,null,null,325,null,null,null,null,null,null,null,null]
+,
+[8,"e3d89195-7373-4a79-82af-fba59c08ae35",null,null,{"type": "Point","coordinates": [-77.169042882637996,-11.772465302460851]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[9,"708333d8-798e-401d-ac11-919e8b0cdeb1",null,null,{"type": "Point","coordinates": [-77.168967825427629,-11.772517292443187]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[10,"5cbc7f44-651d-47c0-a3ab-0eeca1dd7193",null,null,{"type": "Point","coordinates": [-77.168892768189082,-11.77256928240557]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[11,"bc15e404-2d9d-4330-b141-53accc0f6e97",null,null,{"type": "Point","coordinates": [-77.168817710922312,-11.772621272347994]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[12,"6e0ebb5a-ea97-48a1-a1bf-32942c02c608",null,null,{"type": "Point","coordinates": [-77.168742653627348,-11.772673262270466]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[13,"5c163658-d5f8-4436-acff-37d361284d80",null,null,{"type": "Point","coordinates": [-77.168667596304175,-11.772725252172979]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[14,"8861b449-8467-4607-a556-1b46a782cf54",null,null,{"type": "Point","coordinates": [-77.168592538952794,-11.772777242055538]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[15,"bae6b227-a3d2-47b8-8087-50848d7f914e",null,null,{"type": "Point","coordinates": [-77.168517481573218,-11.772829231918138]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[16,"442aefc7-d841-4935-87c3-8c049aa16ff9",null,null,{"type": "Point","coordinates": [-77.16844242416542,-11.772881221760777]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[17,"150b7d09-f983-44d0-a24e-7cfdbd1a9b36",null,null,{"type": "Point","coordinates": [-77.168367366729427,-11.772933211583462]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[18,"24c9b498-6d02-4ea1-b5e4-3213f33da693",null,null,{"type": "Point","coordinates": [-77.168292309265226,-11.772985201386188]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[19,"96e1744b-784f-4dea-bf5e-16dacde36392",null,null,{"type": "Point","coordinates": [-77.16821725177283,-11.773037191168955]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[20,"8ec71301-27c6-49c9-b966-e37c1150d4cd",null,null,{"type": "Point","coordinates": [-77.168142194252226,-11.773089180931766]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[21,"0758d6ad-1ccd-4cee-803b-28fd376146bf",null,null,{"type": "Point","coordinates": [-77.168067136703414,-11.773141170674618]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[22,"0fd47e6a-b2d1-4a03-a76b-946c6e8fff01",null,null,{"type": "Point","coordinates": [-77.167992079126421,-11.773193160397511]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[23,"25bf0faf-0a07-4bc0-b7b1-b2076ca262df",null,null,{"type": "Point","coordinates": [-77.167917021521205,-11.773245150100434]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[24,"03bf7558-11c2-4a07-b526-bf97e2021e29",null,null,{"type": "Point","coordinates": [-77.167841963887795,-11.773297139783409]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[25,"e6f85083-842c-4560-91d8-98822806b323",null,null,{"type": "Point","coordinates": [-77.167766906226177,-11.773349129446418]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[26,"14024fda-08d1-416d-8bc1-2c0e3f365233",null,null,{"type": "Point","coordinates": [-77.16769184853635,-11.773401119089469]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[27,"4795282c-6992-427e-8bb5-744c52e8e6a5",null,null,{"type": "Point","coordinates": [-77.167616790818343,-11.773453108712555]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[28,"0ff32e1a-9633-4aa4-9edc-e0c886e2e22c",null,null,{"type": "Point","coordinates": [-77.167541733072113,-11.773505098315681]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[29,"7f0c6959-27d8-417e-9376-b2c96ac328a5",null,null,{"type": "Point","coordinates": [-77.167466675297703,-11.773557087898848]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[30,"6809ebd3-1a3d-495d-acf0-93624427fe9a",null,null,{"type": "Point","coordinates": [-77.16739161749507,-11.773609077462048]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[31,"f0aab53a-f3fc-4676-98a6-ce96a11673a4",null,null,{"type": "Point","coordinates": [-77.167316559664243,-11.773661067005285]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[32,"aa8cc19b-6467-4c51-9f95-a86e6b5ee4d4",null,null,{"type": "Point","coordinates": [-77.167241501805222,-11.77371305652856]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[33,"91f61ebf-b79b-4633-82c5-8c0c56fdc7e3",null,null,{"type": "Point","coordinates": [-77.167166443918006,-11.773765046031874]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[34,"8bdf5be2-af61-47ff-9578-f77f2c832916",null,null,{"type": "Point","coordinates": [-77.167091386002582,-11.773817035515224]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[35,"95e60008-8895-46f6-b671-f67dbbbb8d4a",null,null,{"type": "Point","coordinates": [-77.167016181844204,-11.773868815832977]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[36,"11f5dae3-f2dc-496f-a6c4-0530922fa187",null,null,{"type": "Point","coordinates": [-77.166940128992351,-11.773919382199033]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[37,"674466bb-1ab5-4b39-82db-1b51b3e08b47",null,null,{"type": "Point","coordinates": [-77.166864076112716,-11.773969948544609]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[38,"01f9c5a1-40f7-400d-b02f-8374596b67fc",null,null,{"type": "Point","coordinates": [-77.166788023205271,-11.774020514869699]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[39,"6818cd1a-4340-44f1-af98-929c41b40686",null,null,{"type": "Point","coordinates": [-77.166711970270043,-11.774071081174309]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[40,"683af26e-559f-4142-bc2f-10c061106a98",null,null,{"type": "Point","coordinates": [-77.166635917307033,-11.774121647458436]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[41,"1cd0ed95-c07a-4e08-a404-46dafebbeb51",null,null,{"type": "Point","coordinates": [-77.166559864316241,-11.774172213722078]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[42,"75f2fd4a-0a42-4d52-9987-443d215ada19",null,null,{"type": "Point","coordinates": [-77.166483811297638,-11.774222779965239]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[43,"1066b15e-13f1-459c-b643-15c22fc50bee",null,null,{"type": "Point","coordinates": [-77.166407758251253,-11.774273346187913]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[44,"13f60c28-aefc-4cdd-8f74-21eb0d82102f",null,null,{"type": "Point","coordinates": [-77.166331705177086,-11.774323912390106]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[45,"6709e6e2-3821-4b0a-834a-d7e0f0327b2b",null,null,{"type": "Point","coordinates": [-77.166255652075122,-11.77437447857181]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[46,"8aed5aa0-a605-49a6-86af-7d3d01deb02c",null,null,{"type": "Point","coordinates": [-77.166179598945376,-11.774425044733031,51.823367377743125]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[47,"1f32c413-6437-47f8-b0d8-66ad5c4791a8",null,null,{"type": "Point","coordinates": [-77.166103545787834,-11.77447561087377]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[48,"b6804e85-df1c-4af8-98e9-f28f1407e439",null,null,{"type": "Point","coordinates": [-77.16602749260251,-11.774526176994017]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[49,"e1d4ed52-b221-4af0-9246-c1f46c4322f1",null,null,{"type": "Point","coordinates": [-77.165951094031698,-11.774576235030111]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[50,"72f979a3-9ef9-4821-aeb3-308093af22d0",null,null,{"type": "Point","coordinates": [-77.165874684750619,-11.774626277330089]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[51,"953bbfc4-0467-497c-a1d6-afaac6fe1149",null,null,{"type": "Point","coordinates": [-77.165798275441915,-11.774676319609394]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[52,"16e13e09-1413-4585-82d4-885b75aeaafd",null,null,{"type": "Point","coordinates": [-77.165721866105585,-11.774726361868028]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[53,"699708aa-0dfa-4ebc-889d-24b1359b6a69",null,null,{"type": "Point","coordinates": [-77.165645456741629,-11.774776404105987]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[54,"e82f937f-15a2-42a7-aeee-6d045916fb6f",null,null,{"type": "Point","coordinates": [-77.165569047350047,-11.774826446323271]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[55,"48fb2aaf-e5af-4946-ad18-96d52f713df6",null,null,{"type": "Point","coordinates": [-77.165492637930839,-11.77487648851988]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[56,"af2c197a-6418-43c4-9901-0d10de67a93a",null,null,{"type": "Point","coordinates": [-77.165416228484006,-11.774926530695813]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[57,"2077014e-6c6a-4a01-bf2b-5d961d999532",null,null,{"type": "Point","coordinates": [-77.165339819009532,-11.77497657285107]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[58,"e793dd6b-e6bf-479f-964f-3a9347b8e438",null,null,{"type": "Point","coordinates": [-77.165266347319232,-11.77503066289446]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[59,"2b07bcb7-7c51-4763-b739-04957cbdfbc0",null,null,{"type": "Point","coordinates": [-77.165193579926438,-11.775085723385649]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[60,"b68123d2-437a-4c50-aa0a-61505be2bf29",null,null,{"type": "Point","coordinates": [-77.165120812504696,-11.775140783858031]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[61,"ce177a9b-1f17-4978-9baa-25aa66f92f75",null,null,{"type": "Point","coordinates": [-77.165048045054007,-11.775195844311604]},null,null,null,"MARKUP","4a950aed-c32a-459a-822e-106d6f3a5541",null,null,null,null,null,null,null,"3D Model/Vehicles/Green Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[62,"6b58e6a5-ef49-48bc-b3c3-e257bde15d55",null,null,{"type": "Point","coordinates": [-77.166397499772543,-11.774321954500216]},null,null,null,"MARKUP","4e6c50b3-26ab-42f1-bb88-c68604c2e83f",null,null,null,null,null,null,null,"3D Model/Vehicles/Blue Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[63,"f5bdbf5d-21b6-4d95-8bf5-244d923beb30",null,null,{"type": "Point","coordinates": [-77.166293339261642,-11.774396013486486]},null,null,null,"MARKUP","4e6c50b3-26ab-42f1-bb88-c68604c2e83f",null,null,null,null,null,null,null,"3D Model/Vehicles/Blue Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[64,"8ad3861e-15e4-435b-b299-5a7f927dff4b",null,null,{"type": "Point","coordinates": [-77.166189178694992,-11.774470072434294]},null,null,null,"MARKUP","4e6c50b3-26ab-42f1-bb88-c68604c2e83f",null,null,null,null,null,null,null,"3D Model/Vehicles/Blue Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[65,"f0e52a49-6d0d-4ffd-a587-03a3ff49d3ca",null,null,{"type": "Point","coordinates": [-77.166085018072565,-11.774544131343651]},null,null,null,"MARKUP","4e6c50b3-26ab-42f1-bb88-c68604c2e83f",null,null,null,null,null,null,null,"3D Model/Vehicles/Blue Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[66,"7528295f-aa50-48cc-98c6-190eb4d64b45",null,null,{"type": "Point","coordinates": [-77.165980857394359,-11.774618190214561]},null,null,null,"MARKUP","4e6c50b3-26ab-42f1-bb88-c68604c2e83f",null,null,null,null,null,null,null,"3D Model/Vehicles/Blue Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[67,"6787d1cf-7c11-4cd4-9867-649df5bbc3ae",null,null,{"type": "Point","coordinates": [-77.165876696660391,-11.774692249047009]},null,null,null,"MARKUP","4e6c50b3-26ab-42f1-bb88-c68604c2e83f",null,null,null,null,null,null,null,"3D Model/Vehicles/Blue Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[68,"0d69d7ab-37ee-47bd-b4fe-6eccef7f7ba8",null,null,{"type": "Point","coordinates": [-77.16577253587063,-11.774766307841004]},null,null,null,"MARKUP","4e6c50b3-26ab-42f1-bb88-c68604c2e83f",null,null,null,null,null,null,null,"3D Model/Vehicles/Blue Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[69,"10f9d5c8-51e1-4bf8-a3c6-5d6a5dfe16cb",null,null,{"type": "Point","coordinates": [-77.16566837502512,-11.774840366596543]},null,null,null,"MARKUP","4e6c50b3-26ab-42f1-bb88-c68604c2e83f",null,null,null,null,null,null,null,"3D Model/Vehicles/Blue Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[70,"7427f02a-7d80-455e-8f06-d452ad87921a",null,null,{"type": "Point","coordinates": [-77.165564214123847,-11.774914425313623]},null,null,null,"MARKUP","4e6c50b3-26ab-42f1-bb88-c68604c2e83f",null,null,null,null,null,null,null,"3D Model/Vehicles/Blue Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[71,"ed59cfe2-d605-45f6-9c21-12d370c1a808",null,null,{"type": "Point","coordinates": [-77.165460053166782,-11.774988483992242]},null,null,null,"MARKUP","4e6c50b3-26ab-42f1-bb88-c68604c2e83f",null,null,null,null,null,null,null,"3D Model/Vehicles/Blue Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[72,"8cca389e-fa46-4df5-afaf-63f9cd9c7004",null,null,{"type": "Point","coordinates": [-77.165355892153968,-11.775062542632407]},null,null,null,"MARKUP","4e6c50b3-26ab-42f1-bb88-c68604c2e83f",null,null,null,null,null,null,null,"3D Model/Vehicles/Blue Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[73,"3fc2b4df-1ded-40b9-8dbd-e89b76ba4fa9",null,null,{"type": "Point","coordinates": [-77.165248088293751,-11.775131094449963]},null,null,null,"MARKUP","4e6c50b3-26ab-42f1-bb88-c68604c2e83f",null,null,null,null,null,null,null,"3D Model/Vehicles/Blue Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
+,
+[74,"82202414-65a9-4abd-991a-76673e64481a",null,null,{"type": "Point","coordinates": [-77.165137270569645,-11.775195090266052]},null,null,null,"MARKUP","4e6c50b3-26ab-42f1-bb88-c68604c2e83f",null,null,null,null,null,null,null,"3D Model/Vehicles/Blue Compact Car",null,null,null,null,null,null,null,null,null,140,null,null,null,null,null,null,null,null]
 ]

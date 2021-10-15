@@ -1,0 +1,31 @@
+{
+	"record": {
+		"ID": "fefd51c6-cc60-5f9d-8580-6e987ba72f1f",
+		"data": {
+			"object_hash_id": "2f1ce75a-b927-5d2c-894c-e87361dd87d3",
+			"config_hash_id": "61e3bcbe-352e-535a-8dc9-e19f998425bb",
+			"result": {
+				"Q": 0.72688923928901172,
+				"RainfallIntensity": 6.1437267886177702
+			}
+		}
+	},
+	"object": {
+		"ID": "2f1ce75a-b927-5d2c-894c-e87361dd87d3",
+		"data": {
+			"Area": 5381.9552083548597,
+			"TOC": 900,
+			"Runoff C": 0.94999999999999996
+		}
+	},
+	"config": {
+		"ID": "61e3bcbe-352e-535a-8dc9-e19f998425bb",
+		"data": {
+			"Method": "",
+			"Rainfall": {
+				"ARI": 10,
+				"ID": "IDF/Equation/BDE.Sample"
+			}
+		}
+	}
+}

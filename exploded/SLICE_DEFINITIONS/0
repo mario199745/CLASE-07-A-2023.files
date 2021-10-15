@@ -1,0 +1,29 @@
+[
+[1,"51a3d0dc-2198-49f8-9afc-e2dd59c80f13",null,null,null,null,null,null,"BRIDGES","32cf5aee-5a6c-4794-ae09-cb8f5ee20ba9",null,null,null,null,null,null,1,0,true,"27a0315e-c434-4257-b468-6e090fcc866e","{\r\n\t\"Dimensions\": {\r\n\t\t\"classId\": 12,\r\n\t\t\"Names\": [ \"HasHaunches\", \"LeftDeckSlopeInPercentage\", \"LeftInnerGirder1HaunchHeight\", \"LeftInnerGirder2HaunchHeight\", \"LeftInnerGirder3HaunchHeight\", \"LeftmostGirderHaunchHeight\", \"MidGirderHaunchHeight\", \"NominalHaunchHeight\", \"RightDeckSlopeInPercentage\", \"RightInnerGirder1HaunchHeight\", \"RightInnerGirder2HaunchHeight\", \"RightInnerGirder3HaunchHeight\", \"RightmostGirderHaunchHeight\" ],\r\n\t\t\"Values\": [ 1, 2, 0.10000000000000001, 0.10000000000000001, 0.10000000000000001, 0.10000000000000001, 0.10000000000000001, 0.10000000000000001, 2, 0.10000000000000001, 0.10000000000000001, 0.10000000000000001, 0.10000000000000001 ]\r\n\t}\r\n}"]
+,
+[2,"f08e6087-d273-422c-96da-9b0b553a239c",null,null,null,null,null,null,"BRIDGES","32cf5aee-5a6c-4794-ae09-cb8f5ee20ba9",null,null,null,null,null,null,1,null,true,"27a0315e-c434-4257-b468-6e090fcc866e","{\r\n\t\"Dimensions\": {\r\n\t\t\"classId\": 12,\r\n\t\t\"Names\": [ \"HasHaunches\", \"LeftDeckSlopeInPercentage\", \"LeftInnerGirder1HaunchHeight\", \"LeftInnerGirder2HaunchHeight\", \"LeftInnerGirder3HaunchHeight\", \"LeftmostGirderHaunchHeight\", \"MidGirderHaunchHeight\", \"NominalHaunchHeight\", \"RightDeckSlopeInPercentage\", \"RightInnerGirder1HaunchHeight\", \"RightInnerGirder2HaunchHeight\", \"RightInnerGirder3HaunchHeight\", \"RightmostGirderHaunchHeight\" ],\r\n\t\t\"Values\": [ 1, 2, 0.10000000000000001, 0.10000000000000001, 0.10000000000000001, 0.10000000000000001, 0.10000000000000001, 0.10000000000000001, 2, 0.10000000000000001, 0.10000000000000001, 0.10000000000000001, 0.10000000000000001 ]\r\n\t}\r\n}"]
+,
+[3,"ad4a5a1c-e65e-46e6-9b9b-18222f95f26b",null,null,null,null,null,null,"BRIDGES","32cf5aee-5a6c-4794-ae09-cb8f5ee20ba9",null,null,null,null,null,null,0,0,true,"ce317d2b-3694-4374-a269-f11693e8a149","null"]
+,
+[4,"f320dbb0-7d97-4886-8f17-0cf1a394a825",null,null,null,null,null,null,"BRIDGES","32cf5aee-5a6c-4794-ae09-cb8f5ee20ba9",null,null,null,null,null,null,0,null,true,"ce317d2b-3694-4374-a269-f11693e8a149","null"]
+,
+[5,"fea429ca-bf1b-4dd0-acee-812444115953",null,null,null,null,null,null,"BRIDGES","32cf5aee-5a6c-4794-ae09-cb8f5ee20ba9",null,null,null,null,null,null,0,0,true,"f562fb6d-98a8-4bf2-8c8e-4793e78b50d2","null"]
+,
+[6,"91c2ab66-d145-4bf9-9198-011101337048",null,null,null,null,null,null,"BRIDGES","32cf5aee-5a6c-4794-ae09-cb8f5ee20ba9",null,null,null,null,null,null,0,null,true,"f562fb6d-98a8-4bf2-8c8e-4793e78b50d2","null"]
+,
+[7,"4745f6b4-64ce-4590-8de6-5049e68b8416",null,null,null,null,null,null,"BRIDGES","32cf5aee-5a6c-4794-ae09-cb8f5ee20ba9",null,null,null,null,null,null,0,0,true,"d683affd-c006-4291-a946-a820241a277f","null"]
+,
+[8,"d2abae7f-1be1-4f6b-9505-f22fc3469b01",null,null,null,null,null,null,"BRIDGES","32cf5aee-5a6c-4794-ae09-cb8f5ee20ba9",null,null,null,null,null,null,0,null,true,"d683affd-c006-4291-a946-a820241a277f","null"]
+,
+[15,"7e5bb92f-a752-4ee2-8c52-01def8e3f1d5",null,null,null,null,null,null,"BRIDGES","32cf5aee-5a6c-4794-ae09-cb8f5ee20ba9",null,null,null,null,null,null,0,0,true,"88a9f3dd-4395-4f9c-85a1-d9edfe84b4fe","null"]
+,
+[16,"510e2ed8-0790-4d79-aec4-631a21c60269",null,null,null,null,null,null,"BRIDGES","32cf5aee-5a6c-4794-ae09-cb8f5ee20ba9",null,null,null,null,null,null,0,null,true,"88a9f3dd-4395-4f9c-85a1-d9edfe84b4fe","null"]
+,
+[17,"14def90f-4330-4282-89a9-3869fae784d1",null,null,null,null,null,null,"BRIDGES","32cf5aee-5a6c-4794-ae09-cb8f5ee20ba9",null,null,null,null,null,null,0,0,true,"a2fcb0fc-6911-4348-a5ac-2c7e2b989f44","null"]
+,
+[18,"5df54c03-7baa-410b-9be8-67a1dd0d300b",null,null,null,null,null,null,"BRIDGES","32cf5aee-5a6c-4794-ae09-cb8f5ee20ba9",null,null,null,null,null,null,0,null,true,"a2fcb0fc-6911-4348-a5ac-2c7e2b989f44","null"]
+,
+[19,"f80381f1-02be-4051-a806-464a2bb82499",null,null,null,null,null,null,"BRIDGES","32cf5aee-5a6c-4794-ae09-cb8f5ee20ba9",null,null,null,null,null,null,0,0,true,"a334c68d-da64-46f7-bbbd-743d7251d2c8","null"]
+,
+[20,"a2e20614-4af2-4df5-96cf-3cc4601401a5",null,null,null,null,null,null,"BRIDGES","32cf5aee-5a6c-4794-ae09-cb8f5ee20ba9",null,null,null,null,null,null,0,null,true,"a334c68d-da64-46f7-bbbd-743d7251d2c8","null"]
+]
